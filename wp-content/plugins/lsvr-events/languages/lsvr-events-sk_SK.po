@@ -1,0 +1,857 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LSVR Events\n"
+"POT-Creation-Date: 2018-12-09 17:34+0100\n"
+"PO-Revision-Date: 2018-12-09 17:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/blocks-config.php:45 ../inc/vc-config.php:27
+msgid "LSVR Events Widget"
+msgstr "LSVR Udalosti (widget)"
+
+#: ../inc/blocks-config.php:46 ../inc/vc-config.php:28
+msgid "List of event posts"
+msgstr "Zoznam udalostí"
+
+#: ../inc/blocks-config.php:49 ../inc/blocks-config.php:63
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: ../inc/blocks-config.php:59 ../inc/vc-config.php:40
+msgid "LSVR Featured Event Widget"
+msgstr "LSVR Odporúčaná Udalosť (widget)"
+
+#: ../inc/blocks-config.php:60 ../inc/vc-config.php:41
+msgid "Single event post"
+msgstr "Samostatná udalosť"
+
+#: ../inc/classes/lsvr-cpt-event.php:14
+msgid "Events"
+msgstr "Udalosti"
+
+#: ../inc/classes/lsvr-cpt-event.php:15
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-featured-widget.php:75
+msgid "Event"
+msgstr "Udalosť"
+
+#: ../inc/classes/lsvr-cpt-event.php:16 ../inc/classes/lsvr-cpt-event.php:17
+#: ../inc/classes/lsvr-cpt-event.php:19
+msgid "Add New Event"
+msgstr "Pridať novú udalosť"
+
+#: ../inc/classes/lsvr-cpt-event.php:18
+msgid "Edit Event"
+msgstr "Upraviť udalosť"
+
+#: ../inc/classes/lsvr-cpt-event.php:20
+msgid "View Event"
+msgstr "Zobraziť udalosť"
+
+#: ../inc/classes/lsvr-cpt-event.php:21
+msgid "Search events"
+msgstr "Hľadať udalosti"
+
+#: ../inc/classes/lsvr-cpt-event.php:22
+msgid "No events found"
+msgstr "Nebola nájdená žiadna udalosť"
+
+#: ../inc/classes/lsvr-cpt-event.php:23
+msgid "No events found in trash"
+msgstr "V koši sa nenachádzajú žiadne udalosti"
+
+#: ../inc/classes/lsvr-cpt-event.php:42 ../inc/classes/lsvr-cpt-event.php:43
+#: ../inc/classes/lsvr-cpt-event.php:181
+msgid "Event Location"
+msgstr "Lokácia udalosti"
+
+#: ../inc/classes/lsvr-cpt-event.php:44
+msgid "Search Event Locations"
+msgstr "Hľadať v lokáciách"
+
+#: ../inc/classes/lsvr-cpt-event.php:45
+msgid "Popular Event Locations"
+msgstr "Populárne lokácie"
+
+#: ../inc/classes/lsvr-cpt-event.php:46
+msgid "All Event Locations"
+msgstr "Všetky lokácie"
+
+#: ../inc/classes/lsvr-cpt-event.php:47
+msgid "Parent Event Location"
+msgstr "Nadradená lokácia"
+
+#: ../inc/classes/lsvr-cpt-event.php:48
+msgid "Parent Event Location:"
+msgstr "Nadradená lokácia:"
+
+#: ../inc/classes/lsvr-cpt-event.php:49
+msgid "Edit Event Location"
+msgstr "Upraviť lokáciu"
+
+#: ../inc/classes/lsvr-cpt-event.php:50
+msgid "Update Event Location"
+msgstr "Aktualizovať lokáciu"
+
+#: ../inc/classes/lsvr-cpt-event.php:51
+msgid "Add New Event Location"
+msgstr "Pridať novú lokáciu"
+
+#: ../inc/classes/lsvr-cpt-event.php:52
+msgid "New Event Location Name"
+msgstr "Názov novej lokácie"
+
+#: ../inc/classes/lsvr-cpt-event.php:53
+msgid "Separate event locations by comma"
+msgstr "Oddeľte lokácie čiarkou"
+
+#: ../inc/classes/lsvr-cpt-event.php:54
+msgid "Add or remove event locations"
+msgstr "Pridať alebo odstrániť lokácie"
+
+#: ../inc/classes/lsvr-cpt-event.php:55
+msgid "Choose from the most used event locations"
+msgstr "Vyberte si z najviac používaných lokácií"
+
+#: ../inc/classes/lsvr-cpt-event.php:56
+#: ../inc/classes/widgets/lsvr-widget-event-locations.php:22
+msgid "Event Locations"
+msgstr "Lokácie udalostí"
+
+#: ../inc/classes/lsvr-cpt-event.php:79 ../inc/classes/lsvr-cpt-event.php:93
+#: ../inc/classes/widgets/lsvr-widget-event-categories.php:22
+msgid "Event Categories"
+msgstr "Kategórie udalostí"
+
+#: ../inc/classes/lsvr-cpt-event.php:80
+msgid "Event Category"
+msgstr "Kategória udalosti"
+
+#: ../inc/classes/lsvr-cpt-event.php:81
+msgid "Search Event Categories"
+msgstr "Hľadať v kategóriách"
+
+#: ../inc/classes/lsvr-cpt-event.php:82
+msgid "Popular Event Categories"
+msgstr "Populárne kategórie"
+
+#: ../inc/classes/lsvr-cpt-event.php:83
+msgid "All Event Categories"
+msgstr "Všetky kategórie"
+
+#: ../inc/classes/lsvr-cpt-event.php:84
+msgid "Parent Event Category"
+msgstr "Nadradená kategória"
+
+#: ../inc/classes/lsvr-cpt-event.php:85
+msgid "Parent Event Category:"
+msgstr "Nadradená kategória:"
+
+#: ../inc/classes/lsvr-cpt-event.php:86
+msgid "Edit Event Category"
+msgstr "Upraviť kategóriu"
+
+#: ../inc/classes/lsvr-cpt-event.php:87
+msgid "Update Event Category"
+msgstr "Aktualizovať kategóriu"
+
+#: ../inc/classes/lsvr-cpt-event.php:88
+msgid "Add New Event Category"
+msgstr "Pridať novú kategóriu"
+
+#: ../inc/classes/lsvr-cpt-event.php:89
+msgid "New Event Category Name"
+msgstr "Názov novej kategórie"
+
+#: ../inc/classes/lsvr-cpt-event.php:90
+msgid "Separate event categories by comma"
+msgstr "Oddeľte kategórie čiarkou"
+
+#: ../inc/classes/lsvr-cpt-event.php:91
+msgid "Add or remove event categories"
+msgstr "Pridať alebo odstrániť kategórie"
+
+#: ../inc/classes/lsvr-cpt-event.php:92
+msgid "Choose from the most used event categories"
+msgstr "Vyberte si z najviac používaných kategórií"
+
+#: ../inc/classes/lsvr-cpt-event.php:114 ../inc/classes/lsvr-cpt-event.php:128
+msgid "Event Tags"
+msgstr "Značky udalostí"
+
+#: ../inc/classes/lsvr-cpt-event.php:115
+msgid "Event Tag"
+msgstr "Značka udalostí"
+
+#: ../inc/classes/lsvr-cpt-event.php:116
+msgid "Search Event Tags"
+msgstr "Hľadať v značkách"
+
+#: ../inc/classes/lsvr-cpt-event.php:117
+msgid "Popular Event Tags"
+msgstr "Populárne značky"
+
+#: ../inc/classes/lsvr-cpt-event.php:118
+msgid "All Event Tags"
+msgstr "Všetky značky"
+
+#: ../inc/classes/lsvr-cpt-event.php:119
+msgid "Parent Event Tag"
+msgstr "Nadradená značka"
+
+#: ../inc/classes/lsvr-cpt-event.php:120
+msgid "Parent Event Tag:"
+msgstr "Nadradená značka:"
+
+#: ../inc/classes/lsvr-cpt-event.php:121
+msgid "Edit Event Tag"
+msgstr "Upraviť značku"
+
+#: ../inc/classes/lsvr-cpt-event.php:122
+msgid "Update Event Tag"
+msgstr "Aktualizovať značku"
+
+#: ../inc/classes/lsvr-cpt-event.php:123
+msgid "Add New Event Tag"
+msgstr "Pridať novú značku"
+
+#: ../inc/classes/lsvr-cpt-event.php:124
+msgid "New Event Tag Name"
+msgstr "Názov novej značky"
+
+#: ../inc/classes/lsvr-cpt-event.php:125
+msgid "Separate event tags by comma"
+msgstr "Oddeľte značky čiarkou"
+
+#: ../inc/classes/lsvr-cpt-event.php:126
+msgid "Add or remove event tags"
+msgstr "Pridať alebo odstrániť značky"
+
+#: ../inc/classes/lsvr-cpt-event.php:127
+msgid "Choose from the most used event tags"
+msgstr "Vyberte si z najviac používaných značiek"
+
+#: ../inc/classes/lsvr-cpt-event.php:171
+msgid "Event Settings"
+msgstr "Nastavenia udalosti"
+
+#: ../inc/classes/lsvr-cpt-event.php:182
+msgid "You can manage event locations under Events / Event Locations."
+msgstr "Lokácie možete upravovať pod \"Udalosti / Lokácie udalostí\"."
+
+#: ../inc/classes/lsvr-cpt-event.php:184
+msgid "There are currently no event locations"
+msgstr "Žiadne lokácie"
+
+#: ../inc/classes/lsvr-cpt-event.php:191 ../inc/classes/lsvr-cpt-event.php:462
+msgid "Start Date"
+msgstr "Začiatok"
+
+#: ../inc/classes/lsvr-cpt-event.php:192
+msgid "Starting date and time of the event."
+msgstr "Začiatočný dátum a čas udalosti."
+
+#: ../inc/classes/lsvr-cpt-event.php:199 ../inc/classes/lsvr-cpt-event.php:463
+msgid "End Date"
+msgstr "Koniec"
+
+#: ../inc/classes/lsvr-cpt-event.php:200
+msgid "Ending date and time of the event."
+msgstr "Konečný dátum a čas udalosti."
+
+#: ../inc/classes/lsvr-cpt-event.php:207
+msgid "All-day Event"
+msgstr "Celodenná udalosť"
+
+#: ../inc/classes/lsvr-cpt-event.php:208
+msgid "Enable if this event doesn't have specific start and end time."
+msgstr "Aktivujte ak táto udalosť nemá konkrétny čas začiatku a konca."
+
+#: ../inc/classes/lsvr-cpt-event.php:209
+msgid "This is an all-day event"
+msgstr "Toto je celodenná udalosť"
+
+#: ../inc/classes/lsvr-cpt-event.php:217
+msgid "Show End Time"
+msgstr "Zobraziť čas ukončenia"
+
+#: ../inc/classes/lsvr-cpt-event.php:218
+msgid "Show or hide the end time information on the front-end."
+msgstr "Zobraziť alebo skryť informáciu o čase ukončenia udalosti."
+
+#: ../inc/classes/lsvr-cpt-event.php:219
+msgid "Display end time"
+msgstr "Zobraziť čas ukončenia"
+
+#: ../inc/classes/lsvr-cpt-event.php:231
+msgid "Repeat"
+msgstr "Opakovať"
+
+#: ../inc/classes/lsvr-cpt-event.php:232
+msgid "Create a recurring event."
+msgstr "Vytvorenie opakujúcej sa udalosti."
+
+#: ../inc/classes/lsvr-cpt-event.php:234
+msgid "Do Not Repeat"
+msgstr "Neopakovať"
+
+#: ../inc/classes/lsvr-cpt-event.php:235 ../inc/classes/lsvr-cpt-event.php:606
+msgid "Daily"
+msgstr "Denne"
+
+#: ../inc/classes/lsvr-cpt-event.php:236 ../inc/classes/lsvr-cpt-event.php:609
+msgid "Every Weekday (Monday to Friday)"
+msgstr "Každý pracovný deň"
+
+#: ../inc/classes/lsvr-cpt-event.php:237 ../inc/classes/lsvr-cpt-event.php:612
+msgid "Weekly"
+msgstr "Týždenne"
+
+#: ../inc/classes/lsvr-cpt-event.php:238 ../inc/classes/lsvr-cpt-event.php:615
+msgid "Every Two Weeks"
+msgstr "Každé dva týždne"
+
+#: ../inc/classes/lsvr-cpt-event.php:239 ../inc/classes/lsvr-cpt-event.php:618
+msgid "Monthly"
+msgstr "Mesačne"
+
+#: ../inc/classes/lsvr-cpt-event.php:240 ../inc/classes/lsvr-cpt-event.php:621
+msgid "Every Two Months"
+msgstr "Každé dva mesiace"
+
+#: ../inc/classes/lsvr-cpt-event.php:241 ../inc/classes/lsvr-cpt-event.php:624
+msgid "Yearly"
+msgstr "Ročne"
+
+#: ../inc/classes/lsvr-cpt-event.php:242
+msgid "Every First:"
+msgstr "Každý prvý:"
+
+#: ../inc/classes/lsvr-cpt-event.php:243
+msgid "Every Second:"
+msgstr "Každý druhý:"
+
+#: ../inc/classes/lsvr-cpt-event.php:244
+msgid "Every Third:"
+msgstr "Každý tretí:"
+
+#: ../inc/classes/lsvr-cpt-event.php:245
+msgid "Every Fourth:"
+msgstr "Každý štvrtý:"
+
+#: ../inc/classes/lsvr-cpt-event.php:246
+msgid "Every Last:"
+msgstr "Každý posledný:"
+
+#: ../inc/classes/lsvr-cpt-event.php:255
+msgid "Repeat On"
+msgstr "Opakovať"
+
+#: ../inc/classes/lsvr-cpt-event.php:256
+msgid "If not specified, event will repeat every day."
+msgstr "Ak nezvolíte žiadny konkrétny deň, udalosť sa bude opakovať každý deň."
+
+#: ../inc/classes/lsvr-cpt-event.php:258 ../inc/classes/lsvr-cpt-event.php:279
+msgid "Mon"
+msgstr "Po"
+
+#: ../inc/classes/lsvr-cpt-event.php:259 ../inc/classes/lsvr-cpt-event.php:280
+msgid "Tue"
+msgstr "Ut"
+
+#: ../inc/classes/lsvr-cpt-event.php:260 ../inc/classes/lsvr-cpt-event.php:281
+msgid "Wed"
+msgstr "St"
+
+#: ../inc/classes/lsvr-cpt-event.php:261 ../inc/classes/lsvr-cpt-event.php:282
+msgid "Thu"
+msgstr "Št"
+
+#: ../inc/classes/lsvr-cpt-event.php:262 ../inc/classes/lsvr-cpt-event.php:283
+msgid "Fri"
+msgstr "Pi"
+
+#: ../inc/classes/lsvr-cpt-event.php:263 ../inc/classes/lsvr-cpt-event.php:284
+msgid "Sat"
+msgstr "So"
+
+#: ../inc/classes/lsvr-cpt-event.php:264 ../inc/classes/lsvr-cpt-event.php:285
+msgid "Sun"
+msgstr "Ne"
+
+#: ../inc/classes/lsvr-cpt-event.php:277
+msgid "Choose Day"
+msgstr "Zvoliť deň"
+
+#: ../inc/classes/lsvr-cpt-event.php:299
+msgid "Repeat Until"
+msgstr "Doba opakovania"
+
+#: ../inc/classes/lsvr-cpt-event.php:324
+msgid "Location Address"
+msgstr "Adresa lokácie"
+
+#: ../inc/classes/lsvr-cpt-event.php:325
+msgid ""
+"This address will be displayed in event details. Please note that it won't "
+"be used to display this location on the map, use the Exact Address field "
+"below for that."
+msgstr ""
+"Táto adresa sa zobrazí v detaile udalosti. Nebude však použitá na "
+"umiestnenie lokácie na mape. Na to slúži políčko Presná adresa."
+
+#: ../inc/classes/lsvr-cpt-event.php:332
+msgid "Exact Address"
+msgstr "Presná adresa"
+
+#: ../inc/classes/lsvr-cpt-event.php:333
+msgid ""
+"This address will be used to display this location on the map, so it should "
+"be really accurate. For example: Main St, Stowe, VT 05672, USA."
+msgstr ""
+"Táto adresa slúži na zobrazenie lokácie na mape, mala by byť preto čo "
+"najviac presná. Napríklad: Rudnayovo námestie 1, 811 01 Bratislava, Slovakia."
+
+#: ../inc/classes/lsvr-cpt-event.php:340
+msgid "Latitude and Longitude"
+msgstr "Zemepisná šírka a dĺžka"
+
+#: ../inc/classes/lsvr-cpt-event.php:341
+msgid ""
+"If you are not able to find the location via its exact address, you can use "
+"the latitude and longitude parameters (separated by comma). For example: "
+"40.751597, -73.982243"
+msgstr ""
+"V prípadne že potrebujete umiestniť lokáciu na presné súradnice, použite "
+"zemepisnú šírku a dĺžku (oddelené čiarkou). Napríklad: 40.751597, -73.982243"
+
+#: ../inc/classes/lsvr-cpt-event.php:369
+msgid "Link with Directory Listing"
+msgstr "Prepojiť s lokáciu z adresára"
+
+#: ../inc/classes/lsvr-cpt-event.php:373
+msgid "Do Not Link"
+msgstr "Neprepájať"
+
+#: ../inc/classes/lsvr-cpt-event.php:375
+msgid ""
+"You can link this event location to an existing directory listing. All "
+"location data will be pulled from that listing, which means you don't have "
+"to fill the rest of the fields below (but you can do it as a backup in case "
+"you remove the linked listing in the future)."
+msgstr ""
+"Túto lokáciu môžete prepojiť s existujúcou lokáciu z adresára. Všetky "
+"potrebné dáta sa preberú z adresára, to znamená že nemusíte vypĺňať ostatné "
+"políčka."
+
+#: ../inc/classes/lsvr-cpt-event.php:399
+msgid "Date From"
+msgstr "Dátum od"
+
+#: ../inc/classes/lsvr-cpt-event.php:403
+msgid "From Date"
+msgstr "Od"
+
+#: ../inc/classes/lsvr-cpt-event.php:406
+msgid "Date To"
+msgstr "Dátum do"
+
+#: ../inc/classes/lsvr-cpt-event.php:410
+msgid "To Date"
+msgstr "Do"
+
+#: ../inc/classes/lsvr-cpt-event.php:514
+msgid "1st"
+msgstr "prvý"
+
+#: ../inc/classes/lsvr-cpt-event.php:515
+msgid "2nd"
+msgstr "druhý"
+
+#: ../inc/classes/lsvr-cpt-event.php:516
+msgid "3rd"
+msgstr "tretí"
+
+#: ../inc/classes/lsvr-cpt-event.php:517
+msgid "4th"
+msgstr "štvrtý"
+
+#: ../inc/classes/lsvr-cpt-event.php:518
+msgid "last"
+msgstr "posledný"
+
+#: ../inc/classes/lsvr-cpt-event.php:532 ../inc/classes/lsvr-cpt-event.php:671
+msgid "Recurring Event"
+msgstr "Opakujúca sa udalosť"
+
+#: ../inc/classes/lsvr-cpt-event.php:542
+msgid "Next Occurrence Start:"
+msgstr "Najbližší dátum:"
+
+#: ../inc/classes/lsvr-cpt-event.php:546 ../inc/classes/lsvr-cpt-event.php:564
+#: ../inc/classes/lsvr-cpt-event.php:648 ../inc/classes/lsvr-cpt-event.php:685
+#: ../inc/classes/lsvr-cpt-event.php:703
+msgid "All-day"
+msgstr "Celý deň"
+
+#: ../inc/classes/lsvr-cpt-event.php:560
+msgid "Last Occurrence Start:"
+msgstr "Posledný dátum:"
+
+#: ../inc/classes/lsvr-cpt-event.php:577
+msgid "Recurrence Pattern:"
+msgstr "Vzorec opakovania:"
+
+#: ../inc/classes/lsvr-cpt-event.php:587
+#, php-format
+msgid "Every %s"
+msgstr "Každý %s"
+
+#: ../inc/classes/lsvr-cpt-event.php:597
+#, php-format
+msgid "Every %s %s"
+msgstr "Každý %s %s"
+
+#: ../inc/classes/lsvr-cpt-event.php:681
+msgid "Next Occurrence End:"
+msgstr "Koniec najbližšej udalosti:"
+
+#: ../inc/classes/lsvr-cpt-event.php:699
+msgid "Last Occurrence End:"
+msgstr "Koniec poslednej udalosti:"
+
+#: ../inc/classes/lsvr-cpt-event.php:727
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:117
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:139
+msgid "All-day event"
+msgstr "Celodenná udalosť"
+
+#: ../inc/classes/lsvr-permalink-settings-events.php:12
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:16
+msgid "LSVR Events"
+msgstr "LSVR Udalosti"
+
+#: ../inc/classes/lsvr-permalink-settings-events.php:17
+msgid "Archive Slug"
+msgstr "Slug archívu"
+
+#: ../inc/classes/lsvr-permalink-settings-events.php:22
+msgid "Location Slug"
+msgstr "Slug lokácie"
+
+#: ../inc/classes/lsvr-permalink-settings-events.php:27
+msgid "Category Slug"
+msgstr "Slug kategórie"
+
+#: ../inc/classes/lsvr-permalink-settings-events.php:32
+msgid "Tag Slug"
+msgstr "Slug značky"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-featured-widget.php:64
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:68
+msgid "Title"
+msgstr "Nadpis"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-featured-widget.php:65
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:69
+msgid "Title of this section."
+msgstr "Nadpis tejto sekcie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-featured-widget.php:66
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:22
+msgid "Featured Event"
+msgstr "Odporúčaná udalosť"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-featured-widget.php:76
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:26
+msgid "Choose event to display."
+msgstr "Zvoľte si udalosť."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-featured-widget.php:84
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:32
+msgid "Display Excerpt"
+msgstr "Zobraziť zhrnutie"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-featured-widget.php:93
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:118
+msgid "More Link Label"
+msgstr "Popisok tlačidla \"viac\""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-featured-widget.php:94
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:119
+msgid "Link to events archive. Leave blank to hide."
+msgstr "Odkaz na archív udalostí. Ponechajte prázdne pre skrytie odkazu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-featured-widget.php:95
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:120
+msgid "More events"
+msgstr "Viac udalostí"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-featured-widget.php:103
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:128
+msgid "Unique ID"
+msgstr "Unikátne ID"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-featured-widget.php:104
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:129
+msgid ""
+"You can use this ID to style this specific element with custom CSS, for "
+"example."
+msgstr ""
+"Toto ID môžete použiť napríklad na naštýlovanie tohto konkrétneho elementu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:70
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:22
+msgid "Upcoming Events"
+msgstr "Nadchádzajúce udalosti"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:79
+msgid "Location"
+msgstr "Lokácia"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:80
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:26
+msgid "Display events only from a certain location."
+msgstr "Zobraziť iba udalosti z konkrétnej lokácie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:89
+msgid "Category"
+msgstr "Kategória"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:90
+msgid "Display events from a specific category."
+msgstr "Zobraziť iba udalosti z konkrétnej kategórie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:98
+msgid "Limit"
+msgstr "Počet"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:99
+msgid "How many events to display."
+msgstr "Zvoľte počet udalostí."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:100
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:42
+msgid "All"
+msgstr "Všetko"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-event-list-widget.php:109
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:46
+msgid "Bold Date"
+msgstr "Výrazný dátum"
+
+#: ../inc/classes/widgets/lsvr-widget-event-categories.php:16
+msgid "LSVR Event Categories"
+msgstr "LSVR Kategórie Udalostí"
+
+#: ../inc/classes/widgets/lsvr-widget-event-categories.php:17
+msgid "List of Event categories"
+msgstr "Zoznam kategórií"
+
+#: ../inc/classes/widgets/lsvr-widget-event-categories.php:20
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:20
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:20
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:20
+#: ../inc/classes/widgets/lsvr-widget-event-locations.php:20
+msgid "Title:"
+msgstr "Nadpis:"
+
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:16
+msgid "LSVR Featured Event"
+msgstr "LSVR Odporúčaná Udalosť"
+
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:17
+msgid "Single Event post"
+msgstr "Samostatná udalosť"
+
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:25
+msgid "Event:"
+msgstr "Udalosť:"
+
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:29
+msgid "Random"
+msgstr "Náhodný výber"
+
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:37
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:30
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:52
+msgid "More Button Label:"
+msgstr "Popisok tlačidla \"viac\":"
+
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:38
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:31
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:53
+msgid "Link to event post archive. Leave blank to hide."
+msgstr "Odkaz na archív udalostí. Ponechajte prázdne pre skrytie odkazu."
+
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:40
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:55
+msgid "More Events"
+msgstr "Viac udalostí"
+
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:120
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:142
+#, php-format
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:138
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:160
+#, php-format
+msgid "at %s"
+msgstr "v %s"
+
+#: ../inc/classes/widgets/lsvr-widget-event-featured.php:163
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:185
+msgid "There are no events"
+msgstr "Žiadne udalosti"
+
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:16
+msgid "LSVR Event Filter"
+msgstr "LSVR Filter Udalostí"
+
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:17
+msgid "Filter event posts"
+msgstr "Filtrovanie udalostí"
+
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:22
+msgid "Filter Events"
+msgstr "Filtrovať udalosti"
+
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:25
+msgid "Submit Button Label:"
+msgstr "Popisok tlačidla \"viac\":"
+
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:27
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:98
+msgid "Filter"
+msgstr "Filter"
+
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:33
+msgid "All Events"
+msgstr "Všetky udalosti"
+
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:70
+msgid "Date from:"
+msgstr "Dátum od:"
+
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:73
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:85
+msgid "Choose Date"
+msgstr "Zvoliť dátum"
+
+#: ../inc/classes/widgets/lsvr-widget-event-filter.php:82
+msgid "Date to:"
+msgstr "Dátum do:"
+
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:17
+msgid "List of Event posts"
+msgstr "Zoznam udalostí"
+
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:25
+msgid "Location:"
+msgstr "Lokácia:"
+
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:29
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:36
+msgid "None"
+msgstr "----"
+
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:32
+msgid "Category:"
+msgstr "Kategória:"
+
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:33
+msgid "Display events only from a certain category."
+msgstr "Zobraziť iba udalosti z konkrétnej kategórie."
+
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:39
+msgid "Limit:"
+msgstr "Počet:"
+
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:40
+msgid "Number of events to display."
+msgstr "Zvoľte koľko udalostí sa má zobraziť."
+
+#: ../inc/classes/widgets/lsvr-widget-event-list.php:47
+msgid ""
+"Display date in more graphical style. Thumbnail image won't be displayed."
+msgstr "Zobraziť dátum vo výraznom štýle. Ilustračný obrázok nebude zobrazený."
+
+#: ../inc/classes/widgets/lsvr-widget-event-locations.php:16
+msgid "LSVR Event Locations"
+msgstr "LSVR Lokácie Udalostí"
+
+#: ../inc/classes/widgets/lsvr-widget-event-locations.php:17
+msgid "List of Event Locations"
+msgstr "Zoznam lokácií"
+
+#: ../inc/vc-config.php:29 ../inc/vc-config.php:42
+msgid "LSVR Widgets"
+msgstr "LSVR Widgety"
+
+#: ../lsvr-events.php:199 ../lsvr-events.php:232
+msgid "Regenerate Event Occurrences"
+msgstr "Obnoviť udalosti"
+
+#: ../lsvr-events.php:200
+msgid "Regen. Events"
+msgstr "Obn. Udalosti"
+
+#: ../lsvr-events.php:212
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nemáte dostatočné oprávnenia pre prístup k tejto stránke."
+
+#: ../lsvr-events.php:236
+msgid "Use this tool if you've just imported your Event posts."
+msgstr "Použite tento nástroj ak ste práve importovali udalosti."
+
+#: ../lsvr-events.php:238
+msgid "Regenerate"
+msgstr "Obnoviť"
+
+#: ../lsvr-events.php:242
+msgid "There are no event posts."
+msgstr "Žiadne udalosti."
+
+#: ../lsvr-events.php:244
+msgid "Done!"
+msgstr "Hotovo!"
+
+#~ msgid "Latest Events"
+#~ msgstr "Najnovšie udalosti"
+
+#~ msgid "Monday"
+#~ msgstr "pondelok"
+
+#~ msgid "Tuesday"
+#~ msgstr "utorok"
+
+#~ msgid "Wednesday"
+#~ msgstr "streda"
+
+#~ msgid "Thursday"
+#~ msgstr "štvrtok"
+
+#~ msgid "Friday"
+#~ msgstr "piatok"
+
+#~ msgid "Saturday"
+#~ msgstr "sobota"
+
+#~ msgid "Sunday"
+#~ msgstr "nedeľa"
+
+#~ msgid "Daily: %s"
+#~ msgstr "Denne: %s"

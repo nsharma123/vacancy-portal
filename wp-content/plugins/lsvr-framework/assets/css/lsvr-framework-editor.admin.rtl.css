@@ -1,0 +1,57 @@
+/* Dynamic shortcode block */
+.lsvr-shortcode-block-view__spinner { left: auto; right: 50%; margin-left: 0; margin-right: -15px; }
+
+/* Static shortcode block */
+.lsvr-shortcode-block-view__title { padding-right: 0; padding-left: 30px; }
+
+/* Inspector controls */
+.lsvr-control-mediaupload__button-add { margin-right: 0; margin-left: 10px; }
+
+/* Post metafields */
+.lsvr-post-metafield__content { padding-left: 0; padding-right: 0; }
+
+/* Attachment field */
+.lsvr-post-metafield-attachment__item-inner:before { left: auto; right: 0; }
+.lsvr-post-metafield-attachment__btn-remove { right: auto; left: 0; }
+
+/* Checkbox field */
+.lsvr-post-metafield-checkbox__item { margin-left: 10px; margin-right: 0; }
+.lsvr-post-metafield-checkbox--style-inline .lsvr-post-metafield-checkbox__item { display: inline-block; }
+
+/* Datepicker */
+.lsvr-post-metafield__datepicker  { margin-left: 0; margin-right: -10px; }
+.lsvr-post-metafield__datepicker .ui-datepicker-prev,
+.lsvr-post-metafield__datepicker .ui-datepicker-next { left: auto; right: 20px; }
+.lsvr-post-metafield__datepicker .ui-datepicker-next { right: auto; left: 20px; }
+.lsvr-post-metafield__datepicker .ui-datepicker-prev:before,
+.lsvr-post-metafield__datepicker .ui-datepicker-next:before { left: auto; right: 0; }
+.lsvr-post-metafield__datepicker .ui-datepicker-prev:before { content: '\f345'; }
+.lsvr-post-metafield__datepicker .ui-datepicker-next:before { content: '\f341'; }
+
+/* Date field */
+.lsvr-post-metafield-date__input-wrapper:before { right: auto; left: 5px; }
+
+/* Datetime field */
+.lsvr-post-metafield-datetime__input-wrapper:before { right: auto; left: 8px; }
+.lsvr-post-metafield-datetime__time-wrapper { direction: ltr; }
+
+/* External Attachment field */
+.lsvr-post-metafield-ext-attachment__item-inner:before { left: auto; right: 0; }
+.lsvr-post-metafield-ext-attachment__btn-remove { right: auto; left: 0; }
+
+/* Gallery field */
+.lsvr-post-metafield-gallery__item { float: right; }
+.lsvr-post-metafield-gallery__btn-remove { right: auto; left: 5px; }
+
+/* Opening Hours */
+.lsvr-post-metafield-opening-hours__time-wrapper { direction: ltr; text-align: right; }
+
+/* Radio field */
+.lsvr-post-metafield-radio__item { margin-left: 10px; margin-right: 0; }
+.lsvr-post-metafield-radio--style-inline .lsvr-post-metafield-radio__item { display: inline-block; }
+
+/* Slider field */
+.lsvr-post-metafield-slider__slider > .ui-slider-handle { margin-left: 0; margin-right: -5px; }
+
+/* Text field */
+.lsvr-post-metafield-text--number { direction: ltr; text-align: right; }

@@ -1,0 +1,396 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LSVR Galleries\n"
+"POT-Creation-Date: 2018-12-09 13:32+0100\n"
+"PO-Revision-Date: 2016-05-09 11:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/blocks-config.php:45 ../inc/vc-config.php:27
+msgid "LSVR Galleries Widget"
+msgstr ""
+
+#: ../inc/blocks-config.php:46 ../inc/vc-config.php:28
+msgid "List of gallery posts"
+msgstr ""
+
+#: ../inc/blocks-config.php:49 ../inc/blocks-config.php:63
+msgid "Settings"
+msgstr ""
+
+#: ../inc/blocks-config.php:59 ../inc/vc-config.php:40
+msgid "LSVR Featured Gallery Widget"
+msgstr ""
+
+#: ../inc/blocks-config.php:60 ../inc/vc-config.php:41
+msgid "Single gallery post"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:14
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:70
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:22
+msgid "Galleries"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:15
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:79
+msgid "Gallery"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:16
+#: ../inc/classes/lsvr-cpt-gallery.php:17
+#: ../inc/classes/lsvr-cpt-gallery.php:19
+msgid "Add New Gallery"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:18
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:20
+msgid "View Gallery"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:21
+msgid "Search galleries"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:22
+msgid "No galleries found"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:23
+msgid "No galleries found in trash"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:42
+#: ../inc/classes/lsvr-cpt-gallery.php:56
+#: ../inc/classes/widgets/lsvr-widget-gallery-categories.php:22
+msgid "Gallery Categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:43
+msgid "Gallery Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:44
+msgid "Search Gallery Categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:45
+msgid "Popular Gallery Categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:46
+msgid "All Gallery Categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:47
+msgid "Parent Gallery Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:48
+msgid "Parent Gallery Category:"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:49
+msgid "Edit Gallery Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:50
+msgid "Update Gallery Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:51
+msgid "Add New Gallery Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:52
+msgid "New Gallery Category Name"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:53
+msgid "Separate gallery categories by comma"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:54
+msgid "Add or remove gallery categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:55
+msgid "Choose from the most used gallery categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:77
+#: ../inc/classes/lsvr-cpt-gallery.php:91
+msgid "Gallery Tags"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:78
+msgid "Gallery Tag"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:79
+msgid "Search Gallery Tags"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:80
+msgid "Popular Gallery Tags"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:81
+msgid "All Gallery Tags"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:82
+msgid "Parent Gallery Tag"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:83
+msgid "Parent Gallery Tag:"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:84
+msgid "Edit Gallery Tag"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:85
+msgid "Update Gallery Tag"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:86
+msgid "Add New Gallery Tag"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:87
+msgid "New Gallery Tag Name"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:88
+msgid "Separate gallery tags by comma"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:89
+msgid "Add or remove gallery tags"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:90
+msgid "Choose from the most used gallery tags"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:127
+msgid "Gallery Images"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:137
+msgid "Upload new or select existing images. Don't forget to set the gallery thumbnail (via Featured Image) as well."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:139
+msgid "Manage Gallery Images"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:151
+msgid "Number of Images"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-gallery.php:171
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:122
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:127
+#, php-format
+msgid "%d image"
+msgid_plural "%d images"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/lsvr-permalink-settings-galleries.php:12
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:16
+msgid "LSVR Galleries"
+msgstr ""
+
+#: ../inc/classes/lsvr-permalink-settings-galleries.php:17
+msgid "Archive Slug"
+msgstr ""
+
+#: ../inc/classes/lsvr-permalink-settings-galleries.php:22
+msgid "Category Slug"
+msgstr ""
+
+#: ../inc/classes/lsvr-permalink-settings-galleries.php:27
+msgid "Tag Slug"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:68
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:68
+msgid "Title"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:69
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:69
+msgid "Title of this section."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:70
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:22
+msgid "Featured Gallery"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:80
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:26
+msgid "Choose gallery to display."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:88
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:99
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:32
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:39
+msgid "Display Date"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:97
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:108
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:37
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:44
+msgid "Display Image Count"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:106
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:42
+msgid "Display Excerpt"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:115
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:117
+msgid "More Link Label"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:116
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:118
+msgid "Link to galleries archive. Leave blank to hide."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:117
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:119
+msgid "More galleries"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:125
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:127
+msgid "Unique ID"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:126
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:128
+msgid "You can use this ID to style this specific element with custom CSS, for example."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:79
+msgid "Category"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:80
+msgid "Display galleries from a specific category."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:88
+msgid "Limit"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:89
+msgid "How many galleries to display."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:90
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:35
+msgid "All"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-categories.php:16
+msgid "LSVR Gallery Categories"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-categories.php:17
+msgid "List of Gallery categories"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-categories.php:20
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:20
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:20
+msgid "Title:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:16
+msgid "LSVR Featured Gallery"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:17
+msgid "Single Gallery post"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:25
+msgid "Gallery:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:29
+msgid "Random"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:47
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:49
+msgid "More Button Label:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:48
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:50
+msgid "Link to gallery post archive. Leave blank to hide."
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:50
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:52
+msgid "More Galleries"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:142
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:150
+msgid "There are no galleries"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:17
+msgid "List of Gallery posts"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:25
+msgid "Category:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:26
+msgid "Display galleries only from a certain category."
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:29
+msgid "None"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:32
+msgid "Limit:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:33
+msgid "Number of galleries to display."
+msgstr ""
+
+#: ../inc/vc-config.php:29 ../inc/vc-config.php:42
+msgid "LSVR Widgets"
+msgstr ""

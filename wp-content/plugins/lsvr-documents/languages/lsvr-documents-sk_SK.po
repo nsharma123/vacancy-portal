@@ -1,0 +1,599 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LSVR Documents\n"
+"POT-Creation-Date: 2018-12-09 13:13+0100\n"
+"PO-Revision-Date: 2018-12-09 13:14+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n:1,2;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/blocks-config.php:53 ../inc/vc-config.php:27
+msgid "LSVR Documents Widget"
+msgstr "LSVR Dokumenty (widget)"
+
+#: ../inc/blocks-config.php:54 ../inc/vc-config.php:28
+msgid "List of document posts"
+msgstr "Zoznam dokumentov"
+
+#: ../inc/blocks-config.php:57 ../inc/blocks-config.php:71
+#: ../inc/blocks-config.php:85
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: ../inc/blocks-config.php:67 ../inc/vc-config.php:40
+msgid "LSVR Featured Document Widget"
+msgstr "LSVR Odporúčaný Dokument (widget)"
+
+#: ../inc/blocks-config.php:68 ../inc/vc-config.php:41
+msgid "Single document post"
+msgstr "Samostatný dokument"
+
+#: ../inc/blocks-config.php:81 ../inc/vc-config.php:53
+msgid "LSVR Document Attachments Widget"
+msgstr "LSVR Prílohy Dokumentov (widget)"
+
+#: ../inc/blocks-config.php:82 ../inc/vc-config.php:54
+msgid "List of attachments"
+msgstr "Zoznam príloh dokumentov"
+
+#: ../inc/classes/lsvr-cpt-document.php:14
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:22
+msgid "Documents"
+msgstr "Dokumenty"
+
+#: ../inc/classes/lsvr-cpt-document.php:15
+msgid "Document"
+msgstr "Dokument"
+
+#: ../inc/classes/lsvr-cpt-document.php:16
+#: ../inc/classes/lsvr-cpt-document.php:17
+#: ../inc/classes/lsvr-cpt-document.php:19
+msgid "Add New Document"
+msgstr "Pridať nový dokument"
+
+#: ../inc/classes/lsvr-cpt-document.php:18
+msgid "Edit Document"
+msgstr "Upraviť dokument"
+
+#: ../inc/classes/lsvr-cpt-document.php:20
+msgid "View Document"
+msgstr "Zobraziť dokument"
+
+#: ../inc/classes/lsvr-cpt-document.php:21
+msgid "Search documents"
+msgstr "Hľadať v dokumentoch"
+
+#: ../inc/classes/lsvr-cpt-document.php:22
+msgid "No documents found"
+msgstr "Neboli nájdené žiadne dokumenty"
+
+#: ../inc/classes/lsvr-cpt-document.php:23
+msgid "No documents found in trash"
+msgstr "V koši sa nenachádzajú žiadne dokumenty"
+
+#: ../inc/classes/lsvr-cpt-document.php:42
+#: ../inc/classes/lsvr-cpt-document.php:56
+#: ../inc/classes/widgets/lsvr-widget-document-categories.php:22
+msgid "Document Categories"
+msgstr "Kategórie dokumentov"
+
+#: ../inc/classes/lsvr-cpt-document.php:43
+msgid "Document Category"
+msgstr "Kategória dokumentu"
+
+#: ../inc/classes/lsvr-cpt-document.php:44
+msgid "Search Document Categories"
+msgstr "Hľadať v kategóriach"
+
+#: ../inc/classes/lsvr-cpt-document.php:45
+msgid "Popular Document Categories"
+msgstr "Populárne kategórie"
+
+#: ../inc/classes/lsvr-cpt-document.php:46
+msgid "All Document Categories"
+msgstr "Všetky kategórie"
+
+#: ../inc/classes/lsvr-cpt-document.php:47
+msgid "Parent Document Category"
+msgstr "Nadradená kategória"
+
+#: ../inc/classes/lsvr-cpt-document.php:48
+msgid "Parent Document Category:"
+msgstr "Nadradená kategória:"
+
+#: ../inc/classes/lsvr-cpt-document.php:49
+msgid "Edit Document Category"
+msgstr "Upraviť kategóriu"
+
+#: ../inc/classes/lsvr-cpt-document.php:50
+msgid "Update Document Category"
+msgstr "Aktualizovať kategóriu"
+
+#: ../inc/classes/lsvr-cpt-document.php:51
+msgid "Add New Document Category"
+msgstr "Pridať novú kategóriu"
+
+#: ../inc/classes/lsvr-cpt-document.php:52
+msgid "New Document Category Name"
+msgstr "Názov novej kategórie"
+
+#: ../inc/classes/lsvr-cpt-document.php:53
+msgid "Separate document categories by comma"
+msgstr "Oddeľte kategórie čiarkou"
+
+#: ../inc/classes/lsvr-cpt-document.php:54
+msgid "Add or remove document categories"
+msgstr "Pridať alebo odstrániť kategórie"
+
+#: ../inc/classes/lsvr-cpt-document.php:55
+msgid "Choose from the most used document categories"
+msgstr "Vyberte si z najviac používaných kategórií"
+
+#: ../inc/classes/lsvr-cpt-document.php:77
+#: ../inc/classes/lsvr-cpt-document.php:91
+msgid "Document Tags"
+msgstr "Značky dokumentov"
+
+#: ../inc/classes/lsvr-cpt-document.php:78
+msgid "Document Tag"
+msgstr "Značka dokumentu"
+
+#: ../inc/classes/lsvr-cpt-document.php:79
+msgid "Search Document Tags"
+msgstr "Hľadať v značkách"
+
+#: ../inc/classes/lsvr-cpt-document.php:80
+msgid "Popular Document Tags"
+msgstr "Populárne značky"
+
+#: ../inc/classes/lsvr-cpt-document.php:81
+msgid "All Document Tags"
+msgstr "Všetky značky"
+
+#: ../inc/classes/lsvr-cpt-document.php:82
+msgid "Parent Document Tag"
+msgstr "Nadradená značka"
+
+#: ../inc/classes/lsvr-cpt-document.php:83
+msgid "Parent Document Tag:"
+msgstr "Nadradená značka:"
+
+#: ../inc/classes/lsvr-cpt-document.php:84
+msgid "Edit Document Tag"
+msgstr "Upraviť značku"
+
+#: ../inc/classes/lsvr-cpt-document.php:85
+msgid "Update Document Tag"
+msgstr "Aktualizovať značku"
+
+#: ../inc/classes/lsvr-cpt-document.php:86
+msgid "Add New Document Tag"
+msgstr "Pridať novú značku"
+
+#: ../inc/classes/lsvr-cpt-document.php:87
+msgid "New Document Tag Name"
+msgstr "Názov novej značky"
+
+#: ../inc/classes/lsvr-cpt-document.php:88
+msgid "Separate document tags by comma"
+msgstr "Oddeľte značky čiarkou"
+
+#: ../inc/classes/lsvr-cpt-document.php:89
+msgid "Add or remove document tags"
+msgstr "Pridať alebo odstrániť značky"
+
+#: ../inc/classes/lsvr-cpt-document.php:90
+msgid "Choose from the most used document tags"
+msgstr "Vyberte si z najviac používaných značiek"
+
+#: ../inc/classes/lsvr-cpt-document.php:127
+msgid "Document Settings"
+msgstr "Nastavenia dokumentu"
+
+#: ../inc/classes/lsvr-cpt-document.php:137
+msgid "Local Attachments"
+msgstr "Lokálne prílohy"
+
+#: ../inc/classes/lsvr-cpt-document.php:138
+msgid "Upload new or select existing files."
+msgstr "Nahrajte nové alebo vyberte existujúce súbory."
+
+#: ../inc/classes/lsvr-cpt-document.php:139
+msgid "Select Local Attachments"
+msgstr "Vybrať lokálne prílohy"
+
+#: ../inc/classes/lsvr-cpt-document.php:146
+msgid "External Attachments"
+msgstr "Externé prílohy"
+
+#: ../inc/classes/lsvr-cpt-document.php:147
+msgid "Insert URL of external attachment."
+msgstr "Vložte URL externej prílohy."
+
+#: ../inc/classes/lsvr-cpt-document.php:158
+msgid "Number of Attachments"
+msgstr "Počet príloh"
+
+#: ../inc/classes/lsvr-cpt-document.php:188
+#, php-format
+msgid "%d local attachment"
+msgid_plural "%d local attachments"
+msgstr[0] "%d lokálna príloha"
+msgstr[1] "%d lokálne prílohy"
+msgstr[2] "%d lokálnych príloh"
+
+#: ../inc/classes/lsvr-cpt-document.php:192
+#, php-format
+msgid "%d external attachment"
+msgid_plural "%d external attachments"
+msgstr[0] "%d externá príloha"
+msgstr[1] "%d externé prílohy"
+msgstr[2] "%d externých príloh"
+
+#: ../inc/classes/lsvr-cpt-document.php:195
+msgid "No attachments"
+msgstr "Žiadne prílohy"
+
+#: ../inc/classes/lsvr-permalink-settings-documents.php:12
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:16
+msgid "LSVR Documents"
+msgstr "LSVR Dokumenty"
+
+#: ../inc/classes/lsvr-permalink-settings-documents.php:17
+msgid "Archive Slug"
+msgstr "Slug archívu"
+
+#: ../inc/classes/lsvr-permalink-settings-documents.php:22
+msgid "Category Slug"
+msgstr "Slug kategórie"
+
+#: ../inc/classes/lsvr-permalink-settings-documents.php:27
+msgid "Tag Slug"
+msgstr "Slug značky"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:68
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:72
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:70
+msgid "Title"
+msgstr "Nadpis"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:69
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:73
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:71
+msgid "Title of this section."
+msgstr "Nadpis tejto sekcie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:70
+msgid "Document Attachments"
+msgstr "Prílohy dokumentov"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:79
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:83
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:81
+msgid "Category"
+msgstr "Kategória"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:80
+msgid "Display attachments from a specific category."
+msgstr "Zobraziť iba prílohy z konkrétnej kategórie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:88
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:90
+msgid "Tags"
+msgstr "Značky"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:89
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:33
+msgid ""
+"Display only attachments which contain certain tags. Separate tag slugs by "
+"comma."
+msgstr ""
+"Zobraziť iba prílohy s konkrétnymi značkami. Oddeľte slugy značiek čiarkou."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:97
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:99
+msgid "Limit"
+msgstr "Počet"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:98
+msgid "How many attachments to display."
+msgstr "Počet príloh."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:99
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:101
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:40
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:40
+msgid "All"
+msgstr "Všetko"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:108
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:128
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:44
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:52
+msgid "Display Attachment Titles"
+msgstr "Zobraziť názvy príloh"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:109
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:129
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:45
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:53
+msgid "Display titles instead of file names. You can edit titles under Media."
+msgstr ""
+"Zobraziť názvy príloh namiesto mien súborov. Názvy si môžete zmeniť v časti "
+"Multimédia."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:118
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:138
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:128
+msgid "More Link Label"
+msgstr "Popisok tlačidla \"viac\""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:119
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:139
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:129
+msgid "Link to documents archive. Leave blank to hide."
+msgstr "Odkaz na archív dokumentov. Ponechajte prázdne pre skrytie odkazu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:120
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:140
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:130
+msgid "More documents"
+msgstr "Viac dokumentov"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:128
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:148
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:138
+msgid "Unique ID"
+msgstr "Unikátne ID"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-attachments-widget.php:129
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:149
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:139
+msgid ""
+"You can use this ID to style this specific element with custom CSS, for "
+"example."
+msgstr ""
+"Toto ID môžete použiť napríklad na naštýlovanie tohto konkrétneho elementu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:74
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:22
+msgid "Featured Document"
+msgstr "Odporúčaný dokument"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:84
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:26
+msgid "Choose document to display."
+msgstr "Zvoľte si dokument."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:92
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:110
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:32
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:44
+msgid "Display Date"
+msgstr "Zobraziť dátum"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:101
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:37
+msgid "Display Category"
+msgstr "Zobraziť kategóriu"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:110
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:42
+msgid "Display Excerpt"
+msgstr "Zobraziť zhrnutie"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-featured-widget.php:119
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:47
+msgid "Display Attachments"
+msgstr "Zobraziť prílohy"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:72
+msgid "Latest Documents"
+msgstr "Najnovšie dokumenty"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:82
+msgid "Display documents from a specific category."
+msgstr "Zobraziť iba dokumenty z konkrétnej kategórie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:91
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:33
+msgid ""
+"Display only documents which contain certain tags. Separate tag slugs by "
+"comma."
+msgstr ""
+"Zobraziť iba dokumenty s konkrétnymi značkami. Oddeľte slugy značiek čiarkou."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:100
+msgid "How many documents to display."
+msgstr "Zvoľte si dokument."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-document-list-widget.php:119
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:49
+msgid "Display Attachment Count"
+msgstr "Zobraziť počet príloh"
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:16
+msgid "LSVR Document Attachments"
+msgstr "LSVR Prílohy Dokumentov"
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:17
+msgid "List of Document Attachments"
+msgstr "Zoznam príloh dokumentov"
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:20
+#: ../inc/classes/widgets/lsvr-widget-document-categories.php:20
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:20
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:20
+msgid "Title:"
+msgstr "Nadpis:"
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:22
+msgid "Attachments"
+msgstr "Prílohy"
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:25
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:25
+msgid "Category:"
+msgstr "Kategória:"
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:26
+msgid "Display only attachments from a certain category."
+msgstr "Zobraziť iba prílohy z konkrétnej kategórie."
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:29
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:29
+msgid "None"
+msgstr "----"
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:32
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:32
+msgid "Tags:"
+msgstr "Značky:"
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:37
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:37
+msgid "Limit:"
+msgstr "Počet:"
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:38
+msgid "Number of attachments to display."
+msgstr "Počet príloh."
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:50
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:58
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:54
+msgid "More Button Label:"
+msgstr "Popisok tlačidla \"viac\":"
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:51
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:59
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:55
+msgid "Link to document post archive. Leave blank to hide."
+msgstr "Odkaz na archív dokumentov. Ponechajte prázdne pre skrytie odkazu."
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:53
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:61
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:57
+msgid "More Documents"
+msgstr "Viac dokumentov"
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:170
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:171
+msgid "External"
+msgstr "Externé"
+
+#: ../inc/classes/widgets/lsvr-widget-document-attachments.php:195
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:190
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:202
+msgid "There are no documents"
+msgstr "Žiadne dokumenty"
+
+#: ../inc/classes/widgets/lsvr-widget-document-categories.php:16
+msgid "LSVR Document Categories"
+msgstr "LSVR Kategórie Dokumentov"
+
+#: ../inc/classes/widgets/lsvr-widget-document-categories.php:17
+msgid "List of Document categories"
+msgstr "Zoznam kategórií dokumentov"
+
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:16
+msgid "LSVR Featured Document"
+msgstr "LSVR Odporúčaný Dokument"
+
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:17
+msgid "Single Document post"
+msgstr "Samostatný dokument"
+
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:25
+msgid "Document:"
+msgstr "Dokument:"
+
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:29
+msgid "Random"
+msgstr "Náhodný výber"
+
+#: ../inc/classes/widgets/lsvr-widget-document-featured.php:135
+#, php-format
+msgid "in %s"
+msgstr "v %s"
+
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:17
+msgid "List of Document posts"
+msgstr "Zoznam dokumentov"
+
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:26
+msgid "Display only documents from a certain category."
+msgstr "Zobraziť iba dokumenty z konkrétnej kategórie."
+
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:38
+msgid "Number of documents to display."
+msgstr "Počet dokumentov."
+
+#: ../inc/classes/widgets/lsvr-widget-document-list.php:178
+#, php-format
+msgid "%s attachment"
+msgid_plural "%s attachments"
+msgstr[0] "%s príloha"
+msgstr[1] "%s prílohy"
+msgstr[2] "%s príloh"
+
+#: ../inc/core-functions.php:239
+#, php-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#: ../inc/core-functions.php:243
+#, php-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#: ../inc/core-functions.php:247
+#, php-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#: ../inc/core-functions.php:251
+#, php-format
+msgid "%s kB"
+msgstr "%s kB"
+
+#: ../inc/core-functions.php:255
+#, php-format
+msgid "%s B"
+msgstr "%s B"
+
+#: ../inc/vc-config.php:29 ../inc/vc-config.php:42 ../inc/vc-config.php:55
+msgid "LSVR Widgets"
+msgstr "LSVR Widgety"
+
+#~ msgid "Add Local Attachments"
+#~ msgstr "Pridať lokálne prílohy"
+
+#~ msgid "Published date of document."
+#~ msgstr "Dátum publikovania dokumentu."
+
+#~ msgid ""
+#~ "Display only attachments which contain certain tags. Separate tag slugs "
+#~ "by comma"
+#~ msgstr ""
+#~ "Zobraziť iba prílohy s konkrétnymi značkami. Oddeľte slugy značiek čiarkou"
+
+#~ msgid "Choose document to display"
+#~ msgstr "Zvoľte si dokument"
+
+#~ msgid ""
+#~ "Display only documents which contain certain tags. Separate tag slugs by "
+#~ "comma"
+#~ msgstr ""
+#~ "Zobraziť iba dokumenty s konkrétnymi značkami. Oddeľte slugy značiek "
+#~ "čiarkou"

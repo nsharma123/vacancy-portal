@@ -1,0 +1,347 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LSVR People\n"
+"POT-Creation-Date: 2018-12-09 13:44+0100\n"
+"PO-Revision-Date: 2016-05-09 11:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/blocks-config.php:45 ../inc/vc-config.php:27
+msgid "LSVR People Widget"
+msgstr ""
+
+#: ../inc/blocks-config.php:46 ../inc/vc-config.php:28
+msgid "List of person posts"
+msgstr ""
+
+#: ../inc/blocks-config.php:49 ../inc/blocks-config.php:63
+msgid "Settings"
+msgstr ""
+
+#: ../inc/blocks-config.php:59 ../inc/vc-config.php:40
+msgid "LSVR Featured Person Widget"
+msgstr ""
+
+#: ../inc/blocks-config.php:60 ../inc/vc-config.php:41
+msgid "Single person post"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:14
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:68
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:22
+msgid "People"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:15
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:77
+msgid "Person"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:16 ../inc/classes/lsvr-cpt-person.php:17
+#: ../inc/classes/lsvr-cpt-person.php:19
+msgid "Add New Person"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:18
+msgid "Edit Person"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:20
+msgid "View Person"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:21
+msgid "Search people"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:22
+msgid "No people found"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:23
+msgid "No people found in trash"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:42 ../inc/classes/lsvr-cpt-person.php:56
+#: ../inc/classes/widgets/lsvr-widget-person-categories.php:22
+msgid "Person Categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:43
+msgid "Person Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:44
+msgid "Search Person Categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:45
+msgid "Popular Person Categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:46
+msgid "All Person Categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:47
+msgid "Parent Person Categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:48
+msgid "Parent Person Categories:"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:49
+msgid "Edit Person Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:50
+msgid "Update Person Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:51
+msgid "Add New Person Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:52
+msgid "New Person Category Name"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:53
+msgid "Separate person categories by comma"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:54
+msgid "Add or remove person categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:55
+msgid "Choose from the most used person categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:88
+msgid "Person Settings"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:98
+msgid "Role"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:99
+msgid "Brief description of this person's role."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:106
+msgid "Email"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:114
+msgid "Phone"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:121
+msgid "Website"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:128
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:135
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:142
+msgid "Skype"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-person.php:149
+msgid "LinkedIn"
+msgstr ""
+
+#: ../inc/classes/lsvr-permalink-settings-people.php:12
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:16
+msgid "LSVR People"
+msgstr ""
+
+#: ../inc/classes/lsvr-permalink-settings-people.php:17
+msgid "Archive Slug"
+msgstr ""
+
+#: ../inc/classes/lsvr-permalink-settings-people.php:22
+msgid "Category Slug"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:66
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:66
+msgid "Title"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:67
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:67
+msgid "Title of this section."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:68
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:22
+msgid "Featured Person"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:78
+msgid "Choose person to display."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:86
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:32
+msgid "Display Excerpt"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:95
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:97
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:37
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:39
+msgid "Display Social Links"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:104
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:106
+msgid "More Link Label"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:105
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:107
+msgid "Link to people archive. Leave blank to hide."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:106
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:108
+msgid "More people"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:114
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:116
+msgid "Unique ID"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:115
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:117
+msgid "You can use this ID to style this specific element with custom CSS, for example."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:77
+msgid "Category"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:78
+msgid "Display people from a specific category."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:86
+msgid "Limit"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:87
+msgid "How many people to display."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:88
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:35
+msgid "All"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-categories.php:16
+msgid "LSVR Person Categories"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-categories.php:17
+msgid "List of Person Post categories"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-categories.php:20
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:20
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:20
+msgid "Title:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:16
+msgid "LSVR Featured Person"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:17
+msgid "Single Person post"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:25
+msgid "Person:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:26
+msgid "Choose person to display"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:29
+msgid "Random"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:42
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:44
+msgid "More Button Label:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:43
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:45
+msgid "Link to person post archive. Leave blank to hide"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:45
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:47
+msgid "More People"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:147
+msgid "Please choose a person to display"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:17
+msgid "List of Person posts"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:25
+msgid "Category:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:26
+msgid "Display people only from a certain category"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:29
+msgid "None"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:32
+msgid "Limit:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:33
+msgid "Number of people to display"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:153
+msgid "There are no people"
+msgstr ""
+
+#: ../inc/vc-config.php:29 ../inc/vc-config.php:42
+msgid "LSVR Widgets"
+msgstr ""

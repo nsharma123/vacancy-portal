@@ -1,0 +1,1021 @@
+/* -----------------------------------------------------------------------------
+
+	TABLE OF CONTENTS
+
+	1. General
+	2. Components
+	3. Header
+	4. Core
+	5. Sidebar
+	6. Footer
+	7. Elements
+	8. Other
+	9. Responsive
+
+----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+
+    1. GENERAL
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		COLORS
+	-------------------------------------------------------------------------- */
+
+	// Accent
+	$accent1: #607D8B; // primary accent color
+
+	// General
+	$body-bg: #f2f2f2;
+	$body-font: #565656;
+	$body-link: $accent1;
+	$content-bg: #FFF;
+
+	// Gray
+	$xx-soft-gray: #fcfcfc; // very very soft backgrounds
+	$x-soft-gray: #f0f0f0; // very soft backgrounds
+	$soft-gray: #bebebe; // soft background
+	$gray: #8a949b; // lighter texts
+	$dark-gray: #333; // titles
+	$x-dark-gray: #1a1a1a; // titles, strong text on bright bg
+
+	// Footer
+	$footer-font: #d7dcdf;
+	$footer-bg: #111111;
+
+	// Misc
+	$info-alert-message: #265e88;
+
+	/* -------------------------------------------------------------------------
+		MIXINS
+	-------------------------------------------------------------------------- */
+
+	// Box shadow
+	@mixin box-shadow ( $shadow1, $shadow2:false ) {
+		$params: $shadow1;
+		@if $shadow2 { $params: $shadow1, $shadow2; }
+		-moz-box-shadow: $params;
+		-webkit-box-shadow: $params;
+		box-shadow: $params;
+	}
+
+	// Button
+	@mixin c-button { @include button-animation; color: #FFF; border-color: $accent1; background-color: $accent1; }
+
+	// Button animation
+	@mixin button-animation {
+		&:hover { @include box-shadow( inset 0 0 0 5px rgba( #000, .1 ) ); }
+		&:active { @include box-shadow( inset 0 0 0 8px rgba( #000, .1 ) ); }
+	}
+	@mixin button-animation-none {
+		&:hover { @include box-shadow( none ); }
+		&:active { @include box-shadow( none ); }
+	}
+
+	// INPUT PLACEHOLDER
+	@mixin input-placeholder( $color ) {
+		&::-webkit-input-placeholder { color: $color; }
+		&:-moz-placeholder { color: $color; }
+		&::-moz-placeholder { color: $color; }
+		&:-ms-input-placeholder { color: $color; }
+	}
+
+	// Vertical gradient
+	@mixin vertical-gradient( $from, $to ) {
+		background-image: -webkit-gradient( linear, left top, left bottom, from( $from ), to( $to ) );
+		background-image: -webkit-linear-gradient( top, $from, $to );
+		background-image:    -moz-linear-gradient( top, $from, $to );
+		background-image:      -o-linear-gradient( top, $from, $to );
+		background-image:         linear-gradient( to bottom, $from, $to );
+	}
+
+	/* -------------------------------------------------------------------------
+        TYPOGRAPHY
+	------------------------------------------------------------------------- */
+
+	body { color: $body-font; background-color: $body-bg; }
+	a { color: $body-link; }
+	abbr { border-color: $body-font; }
+	blockquote { border-color: $x-soft-gray; }
+	button { color: $body-font; }
+	pre { border-color: $x-soft-gray; }
+
+	// Headings
+	h1, h2, h3, h4, h5, h6 { color: $dark-gray; }
+
+	/* -------------------------------------------------------------------------
+		FORMS
+	------------------------------------------------------------------------- */
+
+	label { color: $dark-gray; }
+	input, select, textarea { color: $body-font; background-color: $x-soft-gray;
+		@include input-placeholder( rgba( $body-font, 0.6 ) );
+	}
+
+
+/* -----------------------------------------------------------------------------
+
+    2. COMPONENTS
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		ALERT MESSAGE
+	------------------------------------------------------------------------- */
+
+	.c-alert-message { color: $info-alert-message; background-color: lighten( $info-alert-message, 50% ); }
+
+	/* -------------------------------------------------------------------------
+		BUTTON
+	------------------------------------------------------------------------- */
+
+	.c-button { @include c-button; }
+	.c-button--outline { color: $accent1; background-color: transparent; }
+	.c-button--outline:hover { background-color: transparent; }
+
+	/* -------------------------------------------------------------------------
+		CONTENT BOX
+	------------------------------------------------------------------------- */
+
+	.c-content-box { background-color: $content-bg; @include box-shadow( 1px 1px 0 rgba( #000, .05 ) ); }
+	.c-content-box .c-content-box { background-color: transparent; @include box-shadow( none ); }
+
+	/* -------------------------------------------------------------------------
+		SEARCH FORM
+	------------------------------------------------------------------------- */
+
+	.c-search-form__input-holder { background-color: #FFF;  }
+	.c-search-form__button { @include button-animation; color: #FFF; background-color: $accent1; }
+
+	/* -------------------------------------------------------------------------
+		SPINNER
+	------------------------------------------------------------------------- */
+
+	.c-spinner { background-color: #333; }
+
+
+/* -----------------------------------------------------------------------------
+
+    3. HEADER
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		NAVBAR
+	------------------------------------------------------------------------- */
+
+	.header-navbar { background-color: $accent1; border-color: rgba( #000, .2 ); }
+
+		// Header menu
+		.header-menu__item-link--level-0 { color: #FFF; }
+		.header-menu__item--level-0:hover > .header-menu__item-link--level-0,
+		.current-menu-ancestor .header-menu__item-link--level-0,
+		.current-menu-item .header-menu__item-link--level-0 { background-color: rgba( #000, .1 ); }
+
+		// Top Level
+
+			// Dropdown menu
+			.header-menu__item--dropdown {
+
+				.header-menu__item--level-1.menu-item-has-children:after { color: $gray; }
+
+				.header-menu__submenu--level-0,
+				.header-menu__submenu--level-1 { background-color: #FFF;
+					@include box-shadow( 1px 1px 0 rgba( 0, 0, 0, .05 ), -5px 5px 8px rgba( 0, 0, 0, .05 ) ); }
+				.header-menu__item { border-color: $x-soft-gray; }
+				.header-menu__item .header-menu__item-link { color: $accent1; }
+
+			}
+
+			// Megamenu
+			.header-menu__item--megamenu {
+
+				// Level 1
+				.header-menu__submenu--level-0 { background-color: #FFF;
+					@include box-shadow( 1px 1px 0 rgba( 0, 0, 0, .05 ), -5px 5px 8px rgba( 0, 0, 0, .05 ) ); }
+				.header-menu__item-link--level-1 { color: $dark-gray; }
+
+				// Level 2
+				.header-menu__item--level-2 { border-color: $x-soft-gray; }
+
+			}
+
+	/* -------------------------------------------------------------------------
+		MAP
+	-------------------------------------------------------------------------- */
+
+	.header-map { background-color: $soft-gray; }
+	.header-map__close { @include button-animation; color: #FFF; background-color: $accent1; }
+
+	/* -------------------------------------------------------------------------
+		CONTENT
+	-------------------------------------------------------------------------- */
+
+	// Toolbar
+
+		// Map toggle
+		.header-map-toggle { @include button-animation; background-color: #FFF; }
+		.header-map-toggle__ico { color: $accent1; }
+		.header-map-toggle--active { color: #FFF; background-color: $accent1; }
+		.header-map-toggle--active .header-map-toggle__ico { color: #FFF; }
+
+		// Header languages
+		.header-languages__item-link { @include button-animation; color: $body-font; background-color: #FFF; }
+		.header-languages__item--active .header-languages__item-link { @include button-animation-none; color: #FFF; background-color: $accent1; }
+
+		// Header login
+		.header-login__link { @include button-animation; color: $body-font; background-color: #FFF; }
+		.header-login__ico { color: $accent1; }
+		.header-login__link--logout { background-color: $accent1; }
+		.header-login__link--logout .header-login__ico { color: #FFF; }
+
+		// Mobile toggle
+		.header-toolbar-toggle__menu-button { @include button-animation; color: $body-font; background-color: #FFF; }
+		.header-toolbar-toggle__menu-button--active { color: #FFF; background-color: $accent1; }
+
+		// Header mobile menu
+		.header-mobile-menu { background-color: $accent1; border-color: rgba( #000, .2 ); }
+		.header-mobile-menu__item-link { color: #FFF; }
+		.header-mobile-menu__toggle { color: #FFF; }
+
+			// Level 1
+			.header-mobile-menu__item--level-0 { border-color: rgba( #FFF, .1 ); }
+
+			// Level 2
+			.header-mobile-menu__submenu--level-0 { background-color: rgba( #000, .1 ); }
+			.header-mobile-menu__item--level-1 { border-color: rgba( #FFF, .1 ); }
+
+
+	/* -------------------------------------------------------------------------
+		BACKGROUND
+	-------------------------------------------------------------------------- */
+
+	.header-background:after { background-color: transparent; @include vertical-gradient( rgba( $body-bg, 0 ), $body-bg ); }
+
+
+/* -----------------------------------------------------------------------------
+
+    4. CORE
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		PAGE HEADER
+	------------------------------------------------------------------------- */
+
+	.main__header { color: #FFF; background-color: rgba( #000, .8 ); }
+	.main__title { color: #FFF; }
+	.main__subtitle { color: #FFF; }
+	.breadcrumbs { color: $gray; border-color: rgba( #FFF, .1 ); }
+	.breadcrumbs:before { background-color: #FFF; }
+	.breadcrumbs-link { color: #FFF; }
+
+	/* -------------------------------------------------------------------------
+		POST COMMON COMPONENTS
+	------------------------------------------------------------------------- */
+
+	// Post password form
+	.post-password-form input[type="submit"] { @include button-animation; color: #FFF; background-color: $accent1; }
+
+	// Post info
+	.post__info-item:before { color: $soft-gray; }
+
+	// Post footer
+	.post__footer { border-color: $x-soft-gray; }
+	.post__meta-item:before { color: $soft-gray; }
+
+	// Post navigation
+	.post-navigation__prev,
+	.post-navigation__next { border-color: $x-soft-gray; }
+	.post-navigation__title-link { color: rgba( $gray, 0.6 ); }
+
+	// Post comments
+	.post-comments__list {
+		.comment-author .fn a { color: $dark-gray; }
+		.comment-metadata a { color: $gray; }
+		a.comment-edit-link { color: $accent1; }
+	}
+	.comment-form {
+		.submit { @include button-animation; color: #FFF; background-color: $accent1; }
+	}
+
+	// Post pagination
+	.post-pagination__item-link,
+	.post-pagination__number-link { color: $accent1; }
+	.post-pagination__number--active .post-pagination__number-link { color: #FFF; background-color: $accent1; }
+	.post-pagination__number-link:hover { color: $accent1; background-color: #FFF; }
+	.post-pagination__dots { color: $gray; }
+
+	// Default WP pagination
+	.navigation.pagination { border-color: $x-soft-gray;
+		a { color: $accent1; }
+		.page-numbers.current { color: #FFF; background-color: $accent1; }
+		.page-numbers:not( .next ):not( .prev ):not( .dots ):not( .current ):hover { color: $accent1; background-color: #FFF; }
+		.page-numbers.dots { color: $gray; }
+	}
+
+	/* -------------------------------------------------------------------------
+		BLOG / NEWS
+	------------------------------------------------------------------------- */
+
+	// Post archive default
+	.blog-post-archive--default {
+		.sticky > .post__inner { border-color: $soft-gray; }
+	}
+
+	/* -------------------------------------------------------------------------
+		DIRECTORY
+	------------------------------------------------------------------------- */
+
+	// Directory map
+	.lsvr_listing-map__canvas { background-color: $x-soft-gray; }
+	.lsvr_listing-map__marker-inner { @include box-shadow( 0 5px 10px rgba( #000, 0.25 ) ); background-color: $accent1; border-color: $accent1; }
+	.lsvr_listing-map__marker-inner:before { border-top-color: $accent1; }
+	.lsvr_listing-map__marker-inner:after { background-color: #FFF; }
+	.lsvr_listing-map__marker-inner:hover { @include box-shadow( 0 5px 10px rgba( #000, 0.5 ) ); }
+	.lsvr_listing-map__marker-inner--has-thumb { background-color: #FFF; border-color: #FFF; }
+	.lsvr_listing-map__marker-inner--has-thumb:before { border-top-color: #FFF; }
+	.lsvr_listing-map__infobox { @include box-shadow( 0 5px 10px rgba( #000, 0.25 ) ); background-color: #FFF; }
+	.lsvr_listing-map__infobox-address:before,
+	.lsvr_listing-map__infobox-category:before { color: $soft-gray; }
+	.lsvr_listing-map__infobox-more-link { @include button-animation; color: #FFF; background-color: $accent1; }
+
+	// Single
+	.lsvr_listing-post-single {
+		.post__contact-item:before { color: $accent1; }
+		.post__social-links-link { color: #FFF; background-color: $soft-gray; }
+		.post__social-links-link:hover { background-color: $accent1; }
+		.post__hours-item:nth-child( odd ) { background-color: rgba( $x-soft-gray, 0.4 ); }
+	}
+
+	/* -------------------------------------------------------------------------
+		EVENTS
+	------------------------------------------------------------------------- */
+
+	// Single
+	.lsvr_event-post-single {
+		.post__info-item:before { color: $accent1; }
+		.post__content { border-color: $x-soft-gray; }
+		.post__dates-item { background-color: $x-soft-gray; }
+	}
+
+	/* -------------------------------------------------------------------------
+		GALLERIES
+	------------------------------------------------------------------------- */
+
+	// Grid archive layout
+	.lsvr_gallery-post-archive--photogrid {
+		.post { background-color: $dark-gray; }
+		.post__inner { @include vertical-gradient( transparent, rgba( #000, .85 ) ); }
+		.post:hover .post__bg { background-color: rgba( #000, .4 ); }
+		.post__title-link { color: #FFF; }
+		.post__info { color: $x-soft-gray; border-color: rgba( #FFF, .1 ); }
+		.post__term-link { color: #FFF; }
+	}
+
+	/* -------------------------------------------------------------------------
+		DOCUMENTS
+	------------------------------------------------------------------------- */
+
+	// General
+	.lsvr_document-post-page {
+		.post__attachment-icon { color: $gray; }
+		.post__attachment-filesize { color: $gray; }
+		.post__attachment-label { color: $gray; border-color: rgba( $gray, 0.6 ); }
+	}
+
+	// Default archive
+	.lsvr_document-post-archive--default {
+		.post__title-link { color: $accent1; }
+	}
+
+	// Categorized attachments archive layout
+	.lsvr_document-post-archive--categorized-attachments {
+
+		.post-tree__item-link-holder--folder:before { color: $accent1; }
+		.post-tree__item-link--folder { color: $dark-gray; }
+		.post-tree__item-toggle { color: $accent1; }
+		.post-tree__item-icon { color: $gray; }
+		.post-tree__item-size { color: $soft-gray; }
+		.post-tree__item-label { color: $gray; border-color: rgba( $gray, 0.6 ); }
+
+		// Level 1
+		.post-tree__item--level-1 { border-color: $x-soft-gray; }
+
+	}
+
+	/* -------------------------------------------------------------------------
+		PEOPLE
+	------------------------------------------------------------------------- */
+
+	// General
+	.lsvr_person-post-page {
+		.post__contact-item:before { color: $accent1; }
+		.post__social-link { color: #FFF; background-color: $soft-gray; }
+		.post__social-link:hover { background-color: $accent1; }
+	}
+
+	/* -------------------------------------------------------------------------
+		SEARCH RESULTS PAGE
+	------------------------------------------------------------------------- */
+
+	.search-results-page__item { border-color: $x-soft-gray; }
+
+	/* -------------------------------------------------------------------------
+		ERROR 404 PAGE
+	------------------------------------------------------------------------- */
+
+	.error-404-page__404 { color: $x-soft-gray; }
+
+
+/* -----------------------------------------------------------------------------
+
+    5. SIDEBAR
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		WIDGETS
+	------------------------------------------------------------------------- */
+
+	.widget__inner { background-color: #FFF; @include box-shadow( 1px 1px 0 rgba( #000, .05 ) ); }
+	.c-content-box .widget__inner { background-color: transparent; @include box-shadow( none ); }
+	.widget__title,
+	.widget-title { color: $dark-gray; }
+	.widget__title-icon { color: $accent1; }
+	.widget__more { border-color: $x-soft-gray; }
+
+	// LSVR Townpress Menu
+	.lsvr-townpress-menu-widget .widget__inner { background-color: transparent; @include box-shadow( none ); }
+	.lsvr-townpress-menu-widget__nav { background-color: $accent1; border-color: rgba( #000, .1 ); }
+	.lsvr-townpress-menu-widget__toggle { color: #FFF; }
+
+		// Level 1
+		.lsvr-townpress-menu-widget__item--level-0 { border-color: rgba( #FFF, .1 ); }
+		.lsvr-townpress-menu-widget__item-link--level-0 { color: #FFF; }
+		.lsvr-townpress-menu-widget__item--level-0.menu-item-has-children:after { color: #FFF; }
+
+		@media ( min-width: 992px ) {
+
+			// Level 2 & 3
+			.lsvr-townpress-menu-widget__submenu--level-0,
+			.lsvr-townpress-menu-widget__submenu--level-1 { background-color: #FFF; @include box-shadow( 1px 1px 0 rgba( #000, .05 ) ); }
+			.lsvr-townpress-menu-widget__item--level-1,
+			.lsvr-townpress-menu-widget__item--level-2 { border-color: $x-soft-gray; }
+			.lsvr-townpress-menu-widget__item--level-1.menu-item-has-children:after { color: $gray; }
+
+			// Expanded active item
+			.lsvr-townpress-menu-widget__nav--expanded-active .current-menu-item,
+			.lsvr-townpress-menu-widget__nav--expanded-active .current-menu-ancestor {
+
+				> .lsvr-townpress-menu-widget__submenu { background-color: transparent; @include box-shadow( none ); }
+				> .lsvr-townpress-menu-widget__submenu--level-0 { background-color: rgba( #000, .1 ); }
+				> .lsvr-townpress-menu-widget__submenu > .lsvr-townpress-menu-widget__item { border-color: rgba( #FFF, .1 ); }
+				> .lsvr-townpress-menu-widget__submenu > .lsvr-townpress-menu-widget__item.menu-item-has-children:after { color: #FFF; }
+				> .lsvr-townpress-menu-widget__submenu > .lsvr-townpress-menu-widget__item > .lsvr-townpress-menu-widget__item-link { color: #FFF; }
+
+			}
+
+		}
+
+	// LSVR Townpress Weather
+	.lsvr-townpress-weather-widget__weather,
+	.lsvr-townpress-weather-widget__weather-item,
+	.lsvr-townpress-weather-widget__text { border-color: $x-soft-gray; }
+	.lsvr-townpress-weather-widget--has-background {
+		.widget__inner { color: #FFF; background-color: $dark-gray; }
+		.widget__title { color: #FFF; }
+		.widget__title-icon { color: #FFF; }
+		a { color: #FFF; }
+		.lsvr-townpress-weather-widget__weather-spinner { background-color: #FFF; }
+		.lsvr-townpress-weather-widget__time { border-color: rgba( #FFF, .2 ); }
+		.lsvr-townpress-weather-widget__time-title { color: #FFF; }
+		.lsvr-townpress-weather-widget__weather,
+		.lsvr-townpress-weather-widget__weather-item { border-color: rgba( #FFF, .2 ); }
+		.lsvr-townpress-weather-widget__weather-item-title,
+		.lsvr-townpress-weather-widget__weather-item-date { color: #FFF; }
+		.lsvr-townpress-weather-widget__text { border-color: rgba( #FFF, .2 ); }
+	}
+
+	// Definition list
+	.lsvr-definition-list-widget__item-title,
+	.lsvr-definition-list-widget__item-text { border-color: $x-soft-gray; }
+
+	// LSVR Posts
+	.lsvr-post-list-widget__item { border-color: $x-soft-gray; }
+
+	// Category widget
+	.lsvr_notice-categories-widget,
+	.lsvr_listing-categories-widget,
+	.lsvr_event-categories-widget,
+	.lsvr_event-locations-widget,
+	.lsvr_gallery-categories-widget,
+	.lsvr_document-categories-widget,
+	.lsvr_person-categories-widget {
+		.root > li { border-color: $x-soft-gray; }
+	}
+
+	// LSVR Notices
+	.lsvr_notice-list-widget__item { border-color: $x-soft-gray; }
+
+	// LSVR Directory
+	.lsvr_listing-list-widget__item { border-color: $x-soft-gray; }
+
+	// LSVR Events
+	.lsvr_event-list-widget__item { border-color: $x-soft-gray; }
+	.lsvr_event-list-widget__item-date-month { color: #FFF; background-color: $accent1; }
+	.lsvr_event-list-widget__item-date-day { color: $dark-gray; background-color: $x-soft-gray;  }
+
+	// LSVR Event Filter
+	.lsvr_event-filter-widget__label { color: $dark-gray; }
+	.lsvr_event-filter-widget__option--datepicker:after { color: $accent1; }
+	.lsvr_event-filter-widget__submit-button { @include button-animation; color: #FFF; background-color: $accent1; }
+
+	// LSVR Galleries
+	.lsvr_gallery-list-widget__item { border-color: $x-soft-gray; }
+
+	// LSVR Gallery Categories
+	.lsvr_gallery-categories-widget { color: $gray; }
+
+	// LSVR Documents
+	.lsvr_document-list-widget__item { border-color: $x-soft-gray; }
+
+	// LSVR Document Attachments
+	.lsvr_document-attachments-widget__item { border-color: $x-soft-gray; }
+	.lsvr_document-attachments-widget__item-icon { color: $gray; }
+	.lsvr_document-attachments-widget__item-filesize { color: $gray; }
+	.lsvr_document-attachments-widget__item-label { color: $gray; border-color: rgba( $gray, 0.6 ); }
+
+	// LSVR Featured Document
+	.lsvr_document-featured-widget__attachment-icon { color: $gray; }
+	.lsvr_document-featured-widget__attachment-filesize { color: $gray; }
+	.lsvr_document-featured-widget__attachment-label { color: $gray; border-color: rgba( $gray, 0.6 ); }
+
+	// LSVR People
+	.lsvr_person-list-widget__item-title-link { color: $accent1; }
+	.lsvr_person-list-widget__item-subtitle { color: $dark-gray; }
+	.lsvr_person-list-widget__item-social-link { color: #FFF; background-color: $soft-gray; }
+	.lsvr_person-list-widget__item-social-link:hover { background-color: $accent1; }
+
+	// LSVR Featured Person
+	.lsvr_person-featured-widget__title-link { color: $accent1; }
+	.lsvr_person-featured-widget__subtitle { color: $dark-gray; }
+	.lsvr_person-featured-widget__social-link { color: #FFF; background-color: $soft-gray; }
+	.lsvr_person-featured-widget__social-link:hover { background-color: $accent1; }
+
+    // bbpress Forum List
+	.widget_display_forums .widget__inner > ul > li { border-color: $x-soft-gray; }
+
+    // bbpress Search
+	.widget_display_search .button { @include button-animation; color: #FFF; background-color: $accent1; }
+
+    // bbpress Login
+	.bbp_widget_login {
+		.bbp-submit-wrapper .button { @include button-animation; }
+	}
+
+    // bbpress Recent Replies
+	.widget_display_replies .widget__inner > ul > li { border-color: $x-soft-gray; }
+
+    // bbpress Recent Topics
+	.widget_display_topics .widget__inner > ul > li { border-color: $x-soft-gray; }
+
+    // bbpress Topics List
+	.widget_display_views .widget__inner > ul > li { border-color: $x-soft-gray; }
+
+    // bbpress statistics
+	.widget.widget_display_stats {
+		dl > dt { color: $dark-gray; }
+		dl > dt,
+		dl > dd { border-color: $x-soft-gray; }
+	}
+
+	// Archive
+	.widget_archive .widget__inner > ul > li { border-color: $x-soft-gray; }
+
+	// Audio
+	.widget_media_audio .widget__inner { background-color: transparent; @include box-shadow( none ); }
+
+	// Categories
+	.widget_categories .widget__inner > ul > li { border-color: $x-soft-gray; }
+
+	// Custom HTML
+	.widget_custom_html .widget__inner { background-color: transparent; @include box-shadow( none ); }
+
+	// Custom menu
+	.widget_nav_menu .menu > li { border-color: $x-soft-gray; }
+
+	// Image
+	.widget_media_image .widget__inner { background-color: transparent; @include box-shadow( none ); }
+
+	// Meta
+	.widget_meta .widget__inner > ul > li { border-color: $x-soft-gray; }
+
+	// Pages
+	.widget_pages .widget__inner > ul > li { border-color: $x-soft-gray; }
+
+	// Recent comments
+	.widget_recent_comments .widget__inner > ul > li { border-color: $x-soft-gray; }
+
+	// Recent posts
+	.widget_recent_entries .widget__inner > ul > li { border-color: $x-soft-gray; }
+
+	// RSS
+	.widget_rss .widget__inner > ul > li { border-color: $x-soft-gray; }
+
+	// Search
+	.widget_search .widget__inner { background-color: transparent; @include box-shadow( none ); }
+
+	// Video
+	.widget_media_video .widget__inner { background-color: transparent; @include box-shadow( none ); }
+
+
+/* -----------------------------------------------------------------------------
+
+    6. FOOTER
+
+----------------------------------------------------------------------------- */
+
+.footer--has-background:before { @include vertical-gradient( $body-bg, rgba( $body-bg, .9 ) ); }
+
+	/* -------------------------------------------------------------------------
+        FOOTER WIDGETS
+    ------------------------------------------------------------------------- */
+
+	.footer-widgets { color: $footer-font; background-color: rgba( $footer-bg, .9 );
+
+		.widget__inner { background-color: transparent; @include box-shadow( none ); }
+    	.widget__title { color: #FFF; }
+    	.widget__title-icon { color: $accent1; }
+		.widget__more { border-color: rgba( #FFF, .1 );  }
+		label { color: $footer-font; }
+
+		// LSVR TownPress Weather
+		.lsvr-townpress-weather-widget { color: #FFF; background-color: transparent;
+			.widget__title { color: #FFF; }
+			.widget__title-icon { color: #FFF; }
+			a { color: #FFF; }
+			.lsvr-townpress-weather-widget__weather-spinner { background-color: #FFF; }
+			.lsvr-townpress-weather-widget__time { border-color: rgba( #FFF, .2 ); }
+			.lsvr-townpress-weather-widget__time-title { color: #FFF; }
+			.lsvr-townpress-weather-widget__weather-item { border-color: rgba( #FFF, .2 ); }
+			.lsvr-townpress-weather-widget__weather-item-title,
+			.lsvr-townpress-weather-widget__weather-item-date { color: #FFF; }
+			.lsvr-townpress-weather-widget__text { border-color: rgba( #FFF, .2 ); }
+		}
+
+		// Definition list
+		.lsvr-definition-list-widget__item-title,
+		.lsvr-definition-list-widget__item-text { border-color: rgba( #FFF, .1 ); }
+
+		// LSVR Posts
+		.lsvr-post-list-widget__item { border-color: rgba( #FFF, .1 ); }
+
+		// Category widget
+		.lsvr_notice-categories-widget,
+		.lsvr_listing-categories-widget,
+		.lsvr_event-categories-widget,
+		.lsvr_event-locations-widget,
+		.lsvr_gallery-categories-widget,
+		.lsvr_document-categories-widget,
+		.lsvr_person-categories-widget {
+			.root > li { border-color: rgba( #FFF, .1 );  }
+		}
+
+		// LSVR Notices
+		.lsvr_notice-list-widget__item { border-color: rgba( #FFF, .1 ); }
+
+		// LSVR Directory
+		.lsvr_listing-list-widget__item { border-color: rgba( #FFF, .1 ); }
+
+		// LSVR Documents
+		.lsvr_document-list-widget__item { border-color: rgba( #FFF, .1 ); }
+
+		// LSVR Events
+		.lsvr_event-list-widget__item { border-color: rgba( #FFF, .1 ); }
+
+		// LSVR Event Filter
+		.lsvr_event-filter-widget__label { color: $footer-font; }
+
+		// LSVR Document Attachments
+		.lsvr_document-attachments-widget__item { border-color: rgba( #FFF, .1 ); }
+		.lsvr_document-attachments-widget__item-icon,
+		.lsvr_document-attachments-widget__item-filesize { color: $footer-font; }
+		.lsvr_document-attachments-widget__item-label { color: $footer-font; border-color: rgba( $footer-font, 0.6 ); }
+
+		// LSVR People
+		.lsvr_person-list-widget__item-subtitle { color: #FFF; }
+		.lsvr_person-list-widget__item-social-link { color: #FFF; background-color: $accent1; }
+		.lsvr_person-list-widget__item-social-link:hover { background-color: $soft-gray; }
+
+		// LSVR Featured Person
+		.lsvr_person-featured-widget__subtitle { color: #FFF; }
+		.lsvr_person-featured-widget__social-link { color: #FFF; background-color: $accent1; }
+		.lsvr_person-featured-widget__social-link:hover { background-color: $soft-gray; }
+
+		// bbpress Forum List
+		.widget_display_forums .widget__inner > ul > li { border-color: rgba( #FFF, .1 ); }
+
+		// bbpress Recent Replies
+		.widget_display_replies .widget__inner > ul > li { border-color: rgba( #FFF, .1 ); }
+
+		// bbpress Recent Topics
+		.widget_display_topics .widget__inner > ul > li { border-color: rgba( #FFF, .1 ); }
+
+		// bbpress Topics List
+		.widget_display_views .widget__inner > ul > li { border-color: rgba( #FFF, .1 ); }
+
+		// bbpress statistics
+		.widget.widget_display_stats {
+			dl > dt { color: #FFF; }
+			dl > dt,
+			dl > dd { border-color: rgba( #FFF, .1 ); }
+		}
+
+		// Archive
+		.widget_archive .widget__inner > ul > li { border-color: rgba( #FFF, .1 ); }
+
+		// Categories
+		.widget_categories .widget__inner > ul > li { border-color: rgba( #FFF, .1 ); }
+
+		// Custom menu
+		.widget_nav_menu .menu > li { border-color: rgba( #FFF, .1 ); }
+
+		// Meta
+		.widget_meta .widget__inner > ul > li { border-color: rgba( #FFF, .1 ); }
+
+		// Pages
+		.widget_pages .widget__inner > ul > li { border-color: rgba( #FFF, .1 ); }
+
+		// Recent comments
+		.widget_recent_comments .widget__inner > ul > li { border-color: rgba( #FFF, .1 ); }
+
+		// Recent posts
+		.widget_recent_entries .widget__inner > ul > li { border-color: rgba( #FFF, .1 ); }
+
+		// RSS
+		.widget_rss .widget__inner > ul > li { border-color: rgba( #FFF, .1 ); }
+
+	}
+
+	/* -------------------------------------------------------------------------
+        FOOTER BOTTOM
+    ------------------------------------------------------------------------- */
+
+    .footer-bottom { @include vertical-gradient( rgba( $body-bg, .9 ), $body-bg ); }
+
+    	// Footer social links
+    	.footer-social__link { color: #FFF; background-color: $accent1; }
+    	.footer-social__link:hover { @include box-shadow( inset 0 0 0 50px rgba( #FFF, .1 ) ); }
+    	.footer-social__link--behance { background-color: #1769ff; }
+		.footer-social__link--codepen { background-color: #000; }
+		.footer-social__link--deviantart { background-color: #05cc47; }
+		.footer-social__link--dribbble { background-color: #ea4c89; }
+		.footer-social__link--dropbox { background-color: #007ee5; }
+		.footer-social__link--facebook { background-color: #3b5998; }
+		.footer-social__link--flickr { background-color: #0063dc; }
+		.footer-social__link--foursquare { background-color: #0072b1; }
+		.footer-social__link--github { background-color: #4183c4; }
+		.footer-social__link--google-plus { background-color: #dd4b39; }
+		.footer-social__link--instagram { background-color: #3f729b; }
+		.footer-social__link--lastfm { background-color: #c3000d; }
+		.footer-social__link--linkedin { background-color: #0976b4; }
+		.footer-social__link--pinterest { background-color: #cc2127; }
+		.footer-social__link--reddit { background-color: #ff4500; }
+		.footer-social__link--skype { background-color: #00aff0; }
+		.footer-social__link--tumblr { background-color: #35465c; }
+		.footer-social__link--twitch { background-color: #6441a5; }
+		.footer-social__link--twitter { background-color: #55acee; }
+		.footer-social__link--vimeo { background-color: #1ab7ea; }
+		.footer-social__link--vk { background-color: #45668e; }
+		.footer-social__link--yahoo { background-color: #400191; }
+		.footer-social__link--yelp { background-color: #af0606; }
+		.footer-social__link--youtube { background-color: #e52d27; }
+
+
+/* -----------------------------------------------------------------------------
+
+	7. ELEMENTS
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		POSTS
+	------------------------------------------------------------------------- */
+
+	.lsvr-townpress-posts__title-icon { color: $accent1; }
+	.lsvr-townpress-posts__post-meta:before { color: $gray; }
+	.lsvr-townpress-posts__item { border-color: $x-soft-gray; }
+	.lsvr-townpress-posts__title-link { color: $dark-gray; }
+	.lsvr-townpress-posts__footer { border-color: $x-soft-gray; }
+
+	/* -------------------------------------------------------------------------
+		POST SLIDER
+	------------------------------------------------------------------------- */
+
+	.lsvr-townpress-post-slider__post-bg { color: #FFF; background-color: $dark-gray; }
+	.lsvr-townpress-post-slider__post-title-link { color: #FFF; }
+	.lsvr-townpress-post-slider__post-meta-categories .post__term-link { color: #FFF; }
+	.lsvr-townpress-post-slider__post-content a { color: #FFF; }
+	.lsvr-townpress-post-slider__post-overlay-link { background-color: #000; }
+	.lsvr-townpress-post-slider__indicator { background-color: rgba( #FFF, 0.2 ); }
+	.lsvr-townpress-post-slider__indicator-inner { background-color: $accent1; }
+	.lsvr-townpress-post-slider {
+		.owl-prev, .owl-next { color: #FFF; background-color: rgba( #FFF, 0.2 ); }
+	}
+
+	/* -------------------------------------------------------------------------
+		SITEMAP
+	------------------------------------------------------------------------- */
+
+	.lsvr-townpress-sitemap__title-icon { color: $accent1; }
+	.lsvr-townpress-sitemap__item-link--level-0 { color: $dark-gray; }
+
+	/* -------------------------------------------------------------------------
+		LSVR ELEMENTS
+	------------------------------------------------------------------------- */
+
+	// Alert message
+	.lsvr-alert-message { color: $info-alert-message; background-color: lighten( $info-alert-message, 60% ); }
+	.lsvr-alert-message--warning { color: #d40041; background-color: #ffdfe0; }
+	.lsvr-alert-message--success { color: #499143; background-color: #d4fbd3; }
+
+    // Button
+	.lsvr-button { @include c-button; }
+
+    // Counter
+    .lsvr-counter__number { color: $accent1; }
+
+    // CTA
+    .lsvr-cta { background-color: $content-bg; @include box-shadow( 1px 1px 0 rgba( #000, .05 ) ); }
+    .c-content-box .lsvr-cta { background-color: transparent; @include box-shadow( none ); }
+    .lsvr-cta__button-link { @include c-button; }
+
+    // Feature
+    .lsvr-feature { background-color: $content-bg; @include box-shadow( 1px 1px 0 rgba( #000, .05 ) ); }
+    .c-content-box .lsvr-feature { background-color: transparent; @include box-shadow( none ); }
+    .lsvr-feature__title-link { color: $dark-gray; }
+    .lsvr-feature__icon { color: $accent1; }
+
+    // Pricing table
+    .lsvr-pricing-table { background-color: $content-bg; @include box-shadow( 1px 1px 0 rgba( #000, .05 ) ); }
+    .lsvr-pricing-table__title { color: #FFF; background-color: $accent1; }
+    .lsvr-pricing-table__price-value { color: $accent1; }
+    .lsvr-pricing-table__price-description { color: $gray; }
+    .lsvr-pricing-table__text { border-color: $x-soft-gray; }
+    .lsvr-pricing-table__button-link { @include c-button; }
+
+    // Progress bar
+    .lsvr-progress-bar { background-color: $content-bg; @include box-shadow( 1px 1px 0 rgba( #000, .05 ) ); }
+    .c-content-box .lsvr-progress-bar { background-color: transparent; @include box-shadow( none ); }
+    .lsvr-progress-bar__bar { background-color: $x-soft-gray; }
+    .lsvr-progress-bar__bar-inner { background-color: $accent1; }
+
+
+/* -----------------------------------------------------------------------------
+
+    8. OTHER
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+        CONTACT FROM 7
+    ------------------------------------------------------------------------- */
+
+    .wpcf7-form { background-color: $content-bg; @include box-shadow( 1px 1px 0 rgba( #000, .05 ) ); }
+    .c-content-box .wpcf7-form { background-color: transparent; @include box-shadow( none ); }
+    div.wpcf7-response-output,
+	.wpcf7-response-output { color: #265e88; background-color: #e1edf9; }
+	.wpcf7-submit { @include c-button; }
+
+	/* -------------------------------------------------------------------------
+        bbPRESS
+    ------------------------------------------------------------------------- */
+
+	// Login
+	.bbp-submit-wrapper button { color: #FFF; border-color: $accent1; background-color: $accent1; }
+
+	// Notices
+	div.bbp-template-notice,
+	div.bbp-template-notice.info { color: $info-alert-message; background-color: lighten( $info-alert-message, 50% ); }
+	div.bbp-template-notice.error { color: #d40041; background-color: #ffdfe0; }
+	div.bbp-template-notice a { color: $body-link; }
+	div.bbp-template-notice a:hover { color: $body-link; }
+
+	#bbpress-forums {
+
+		// Subscribe toggle
+		#subscription-toggle > span { background-color: $dark-gray; background-color: rgba( 0, 0, 0, .2 ); }
+		#subscription-toggle a { color: #FFF; }
+		.bbp-reply-content #subscription-toggle { color: $x-soft-gray; }
+		.bbp-reply-content #subscription-toggle > span { background-color: transparent; }
+		.bbp-reply-content #subscription-toggle a { color: $accent1; }
+
+		// Tags
+		.bbp-topic-tags { color: #FFF; background-color: $dark-gray; background-color: rgba( 0, 0, 0, .2 ); }
+		.bbp-topic-tags a { color: #FFF; }
+
+		// Pagination
+		.bbp-pagination-count { color: $dark-gray; }
+		.bbp-pagination-links .page-numbers:hover { background-color: #FFF; }
+		.bbp-pagination-links .page-numbers.current { color: #FFF; background-color: $accent1; }
+
+		// Wrapper
+		.bbp-forums,
+		.bbp-topics,
+		.bbp-replies { background-color: $content-bg; @include box-shadow( 1px 1px 0 rgba( 0, 0, 0, .05 ) ); }
+
+		// Header
+		li.bbp-header { background-color: #FFF; border-color: $x-soft-gray; }
+		.forum-titles { color: $dark-gray; }
+
+		// Topic
+		div.bbp-topic-header { border-color: $x-soft-gray; background-color: transparent; }
+		li.bbp-body ul.forum,
+		li.bbp-body ul.topic { border-color: $x-soft-gray; }
+		div.odd,
+		ul.odd { background-color: $xx-soft-gray; }
+		.bbp-forums-list { border-color: $soft-gray; }
+
+		// Post
+		div.bbp-reply-header { border-color: $x-soft-gray; background-color: transparent; }
+
+		// Forms
+		.bbp-reply-form,
+		.bbp-topic-form { background-color: $content-bg; @include box-shadow( 1px 1px 0 rgba( 0, 0, 0, .05 ) ); }
+		form > fieldset.bbp-form > legend,
+		fieldset.bbp-form fieldset.bbp-form > legend { color: $dark-gray; }
+		.quicktags-toolbar { background-color: #FFF; border-color: $x-soft-gray; }
+
+		// Footer
+		li.bbp-footer { background-color: #FFF; border-color: $x-soft-gray; }
+
+		// User
+		#bbp-user-wrapper { background-color: $content-bg; @include box-shadow( 1px 1px 0 rgba( 0, 0, 0, .05 ) ); }
+		#bbp-single-user-details #bbp-user-navigation li.current a { background-color: transparent; }
+
+		// Other
+		.status-closed,
+		.status-closed a { color: $gray; }
+		span.bbp-admin-links a,
+		.bbp-forum-header a.bbp-forum-permalink,
+		.bbp-topic-header a.bbp-topic-permalink,
+		.bbp-reply-header a.bbp-reply-permalink { color: $dark-gray; }
+
+		// Profile edit
+		#bbp-your-profile {
+			fieldset input, fieldset textarea { color: $body-font; background-color: $x-soft-gray; }
+			fieldset input[type="file"] { background-color: transparent; }
+			#bbp_user_edit_submit { color: #FFF; border-color: $accent1; background-color: $accent1; }
+			fieldset input:focus,
+			fieldset textarea:focus { border: 0; @include box-shadow( none ); outline-color: transparent; }
+		}
+
+		// Search results
+		#bbp-search-results { background-color: #FFF; }
+
+	}
+
+	/* -------------------------------------------------------------------------
+		DATEPICKER
+	------------------------------------------------------------------------- */
+
+	.lsvr-datepicker { background-color: #FFF; border-color: $x-soft-gray;
+		.ui-datepicker-prev,
+		.ui-datepicker-next { color: $accent1; }
+		th { color: $accent1; }
+		td a { color: $body-font; }
+		.ui-state-active { color: $accent1; }
+		.ui-state-highlight { color: $dark-gray; }
+	}
+
+	/* -------------------------------------------------------------------------
+		BACK TO TOP
+	------------------------------------------------------------------------- */
+
+	.back-to-top__link { color: #FFF; background-color: $accent1; }
+	.back-to-top__link:hover { @include box-shadow( 0 0 10px rgba( #000, .3 ) ); }
+
+
+/* -----------------------------------------------------------------------------
+
+    9. RESPONSIVE
+
+----------------------------------------------------------------------------- */
+
+    /* -------------------------------------------------------------------------
+        MEDIUM DEVICES
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 991px ) {
+
+		// Widgets
+
+			// Menu widget
+			.lsvr-townpress-menu-widget__item { border-color: rgba( #FFF, .1 ); }
+			.lsvr-townpress-menu-widget__item-link { color: #FFF; }
+			.lsvr-townpress-menu-widget__submenu--level-0 { background-color: rgba( #000, .1 ); }
+
+    }

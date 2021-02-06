@@ -1,0 +1,740 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LSVR Directory\n"
+"POT-Creation-Date: 2018-12-10 12:48+0100\n"
+"PO-Revision-Date: 2018-12-10 12:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/blocks-config.php:45 ../inc/vc-config.php:27
+msgid "LSVR Directory Widget"
+msgstr "LSVR Adresár (widget)"
+
+#: ../inc/blocks-config.php:46 ../inc/vc-config.php:28
+msgid "List of listing posts"
+msgstr "Zoznam lokácií z adresára"
+
+#: ../inc/blocks-config.php:49 ../inc/blocks-config.php:63
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: ../inc/blocks-config.php:59 ../inc/vc-config.php:40
+msgid "LSVR Featured Listing Widget"
+msgstr "LSVR Odporúčaná Lokácia (widget)"
+
+#: ../inc/blocks-config.php:60 ../inc/vc-config.php:41
+msgid "Single listing post"
+msgstr "Lokácia z adresára"
+
+#: ../inc/classes/lsvr-cpt-listing.php:14
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:70
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:22
+msgid "Directory"
+msgstr "Adresár"
+
+#: ../inc/classes/lsvr-cpt-listing.php:15
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:79
+msgid "Listing"
+msgstr "Lokácia"
+
+#: ../inc/classes/lsvr-cpt-listing.php:16
+#: ../inc/classes/lsvr-cpt-listing.php:17
+#: ../inc/classes/lsvr-cpt-listing.php:19
+msgid "Add New Listing"
+msgstr "Pridať novú lokáciu"
+
+#: ../inc/classes/lsvr-cpt-listing.php:18
+msgid "Edit Listing"
+msgstr "Upraviť lokáciu"
+
+#: ../inc/classes/lsvr-cpt-listing.php:20
+msgid "View Listing"
+msgstr "Zobraziť lokáciu"
+
+#: ../inc/classes/lsvr-cpt-listing.php:21
+msgid "Search listings"
+msgstr "Hľadať lokácie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:22
+msgid "No listings found"
+msgstr "Nebola nájdená žiadna lokácia"
+
+#: ../inc/classes/lsvr-cpt-listing.php:23
+msgid "No listings found in trash"
+msgstr "V koši sa nenachádzajú žiadne lokácie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:43
+#: ../inc/classes/lsvr-cpt-listing.php:57
+#: ../inc/classes/widgets/lsvr-widget-listing-categories.php:22
+msgid "Listing Categories"
+msgstr "Kategórie lokácií"
+
+#: ../inc/classes/lsvr-cpt-listing.php:44
+msgid "Listing Category"
+msgstr "Kategória lokácie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:45
+msgid "Search Listing Categories"
+msgstr "Hľadať v kategóriách"
+
+#: ../inc/classes/lsvr-cpt-listing.php:46
+msgid "Popular Listing Categories"
+msgstr "Populárne kategórie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:47
+msgid "All Listing Categories"
+msgstr "Všetky kategórie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:48
+msgid "Parent Listing Category"
+msgstr "Nadradená kategória"
+
+#: ../inc/classes/lsvr-cpt-listing.php:49
+msgid "Parent Listing Category:"
+msgstr "Nadradená kategória:"
+
+#: ../inc/classes/lsvr-cpt-listing.php:50
+msgid "Edit Listing Category"
+msgstr "Upraviť kategóriu"
+
+#: ../inc/classes/lsvr-cpt-listing.php:51
+msgid "Update Listing Category"
+msgstr "Aktualizovať kategóriu"
+
+#: ../inc/classes/lsvr-cpt-listing.php:52
+msgid "Add New Listing Category"
+msgstr "Pridať novú kategóriu"
+
+#: ../inc/classes/lsvr-cpt-listing.php:53
+msgid "New Listing Category Name"
+msgstr "Názov novej kategórie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:54
+msgid "Separate listing categories by comma"
+msgstr "Oddeľte kategórie čiarkou"
+
+#: ../inc/classes/lsvr-cpt-listing.php:55
+msgid "Add or remove listing categories"
+msgstr "Pridať alebo odstrániť kategórie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:56
+msgid "Choose from the most used listing categories"
+msgstr "Vyberte si z najviac používaných kategórií"
+
+#: ../inc/classes/lsvr-cpt-listing.php:78
+#: ../inc/classes/lsvr-cpt-listing.php:92
+msgid "Listing Tags"
+msgstr "Značky lokácií"
+
+#: ../inc/classes/lsvr-cpt-listing.php:79
+msgid "Listing Tag"
+msgstr "Značka lokácie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:80
+msgid "Search Listing Tags"
+msgstr "Hľadať v značkách"
+
+#: ../inc/classes/lsvr-cpt-listing.php:81
+msgid "Popular Listing Tags"
+msgstr "Populárne značky"
+
+#: ../inc/classes/lsvr-cpt-listing.php:82
+msgid "All Listing Tags"
+msgstr "Všetky značky"
+
+#: ../inc/classes/lsvr-cpt-listing.php:83
+msgid "Parent Listing Tag"
+msgstr "Nadradená značka"
+
+#: ../inc/classes/lsvr-cpt-listing.php:84
+msgid "Parent Listing Tag:"
+msgstr "Nadradená značka:"
+
+#: ../inc/classes/lsvr-cpt-listing.php:85
+msgid "Edit Listing Tag"
+msgstr "Upraviť značku"
+
+#: ../inc/classes/lsvr-cpt-listing.php:86
+msgid "Update Listing Tag"
+msgstr "Aktualizovať značku"
+
+#: ../inc/classes/lsvr-cpt-listing.php:87
+msgid "Add New Listing Tag"
+msgstr "Pridať novú značku"
+
+#: ../inc/classes/lsvr-cpt-listing.php:88
+msgid "New Listing Tag Name"
+msgstr "Názov novej značky"
+
+#: ../inc/classes/lsvr-cpt-listing.php:89
+msgid "Separate listing tags by comma"
+msgstr "Oddeľte značky čiarkou"
+
+#: ../inc/classes/lsvr-cpt-listing.php:90
+msgid "Add or remove tags"
+msgstr "Pridať alebo odstrániť značky"
+
+#: ../inc/classes/lsvr-cpt-listing.php:91
+msgid "Choose from the most used listing tags"
+msgstr "Vyberte si z najviac používaných značiek"
+
+#: ../inc/classes/lsvr-cpt-listing.php:130
+msgid "Listing Settings"
+msgstr "Nastavenia lokácie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:138
+msgid "Locate Listing on Map"
+msgstr "Umiestniť lokáciu na mape"
+
+#: ../inc/classes/lsvr-cpt-listing.php:139
+msgid ""
+"Don't forget to insert your Google API key under Customizer / Google Maps "
+"for map functionality to work."
+msgstr ""
+"Nezabudnite vložiť svoj Google API kľúč pod \"Prispôsobiť / Google Mapy\"."
+
+#: ../inc/classes/lsvr-cpt-listing.php:141
+msgid "Do Not Show On Map"
+msgstr "Nezobraziť na mape"
+
+#: ../inc/classes/lsvr-cpt-listing.php:142
+msgid "Locate via Latitude and Longitude (recommended)"
+msgstr "Umiestniť pomocou zemepisnej šírky a dĺžky (odporúčané)"
+
+#: ../inc/classes/lsvr-cpt-listing.php:143
+msgid "Locate via Address"
+msgstr "Umiestniť pomocou adresy"
+
+#: ../inc/classes/lsvr-cpt-listing.php:153
+msgid "Latitude & Longitude"
+msgstr "Zemepisná šírka a dĺžka"
+
+#: ../inc/classes/lsvr-cpt-listing.php:154
+msgid "For example: 40.751597, -73.982243."
+msgstr "Napríklad: 40.751597, -73.982243."
+
+#: ../inc/classes/lsvr-cpt-listing.php:165
+msgid "Exact Address"
+msgstr "Presná adresa"
+
+#: ../inc/classes/lsvr-cpt-listing.php:166
+msgid "For example: 216 W 44th St, New York, NY 10036, US."
+msgstr "Napríklad: Rudnayovo námestie 1, 811 01 Bratislava, Slovakia."
+
+#: ../inc/classes/lsvr-cpt-listing.php:177
+#: ../inc/classes/lsvr-cpt-listing.php:457
+msgid "Address"
+msgstr "Adresa"
+
+#: ../inc/classes/lsvr-cpt-listing.php:178
+msgid ""
+"Displayed in listing details (it won't be used to locate listing on the map)."
+msgstr ""
+"Bude zobrazená v detaile lokácie (nebude použitá na umiestnenie lokácie na "
+"mape)."
+
+#: ../inc/classes/lsvr-cpt-listing.php:186
+msgid "Phone Number"
+msgstr "Telefónne číslo"
+
+#: ../inc/classes/lsvr-cpt-listing.php:187
+#: ../inc/classes/lsvr-cpt-listing.php:196
+#: ../inc/classes/lsvr-cpt-listing.php:204
+#: ../inc/classes/lsvr-cpt-listing.php:212
+msgid "Displayed in listing details."
+msgstr "Zobrazí sa v detaile lokácie."
+
+#: ../inc/classes/lsvr-cpt-listing.php:195
+msgid "Fax"
+msgstr "Fax"
+
+#: ../inc/classes/lsvr-cpt-listing.php:203
+msgid "Email Address"
+msgstr "Emailová adresa"
+
+#: ../inc/classes/lsvr-cpt-listing.php:211
+msgid "Website"
+msgstr "Webstránka"
+
+#: ../inc/classes/lsvr-cpt-listing.php:219
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../inc/classes/lsvr-cpt-listing.php:220
+msgid "Twitter profile URL."
+msgstr "URL Twitter profilu."
+
+#: ../inc/classes/lsvr-cpt-listing.php:227
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../inc/classes/lsvr-cpt-listing.php:228
+msgid "Facebook profile URL."
+msgstr "URL Facebook profilu."
+
+#: ../inc/classes/lsvr-cpt-listing.php:235
+msgid "Instagram"
+msgstr "Instagram"
+
+#: ../inc/classes/lsvr-cpt-listing.php:236
+msgid "Instagram profile URL."
+msgstr "URL Instagram profilu."
+
+#: ../inc/classes/lsvr-cpt-listing.php:243
+msgid "Yelp"
+msgstr "Yelp"
+
+#: ../inc/classes/lsvr-cpt-listing.php:244
+msgid "Yelp profile URL."
+msgstr "URL Yelp profilu."
+
+#: ../inc/classes/lsvr-cpt-listing.php:251
+msgid "Opening Hours"
+msgstr "Otváracie hodiny"
+
+#: ../inc/classes/lsvr-cpt-listing.php:252
+msgid "Choose method for inserting the opening hours."
+msgstr "Zvoľte si metódu pre vloženie otváracích hodín."
+
+#: ../inc/classes/lsvr-cpt-listing.php:254
+msgid "No opening hours"
+msgstr "Žiadne otváracie hodiny"
+
+#: ../inc/classes/lsvr-cpt-listing.php:255
+msgid "Select hours"
+msgstr "Zvoliť hodiny"
+
+#: ../inc/classes/lsvr-cpt-listing.php:256
+msgid "Add hours in custom format"
+msgstr "Vložiť hodiny vo vlastnom formáte"
+
+#: ../inc/classes/lsvr-cpt-listing.php:265
+msgid "Select Opening Hours"
+msgstr "Vyberte otváracie hodiny"
+
+#: ../inc/classes/lsvr-cpt-listing.php:266
+msgid ""
+"You can change the time format displayed on the site under Settings / "
+"General."
+msgstr "Formát času si môžete zmeniť pod \"Nastavenia / Všeobecné\"."
+
+#: ../inc/classes/lsvr-cpt-listing.php:277
+msgid "Opening Hours Note"
+msgstr "Poznámka k otváracím hodinám"
+
+#: ../inc/classes/lsvr-cpt-listing.php:278
+msgid "Add a note to opening hours."
+msgstr "Pridajte si poznámku k otváracím hodinám."
+
+#: ../inc/classes/lsvr-cpt-listing.php:289
+msgid "Custom Format for Opening Hours"
+msgstr "Vlastný formát pre otváracie hodiny"
+
+#: ../inc/classes/lsvr-cpt-listing.php:290
+msgid "You can use STRONG HTML tag for formatting."
+msgstr "Môžete použiť STRONG HTML tag pre naformátovanie textu."
+
+#: ../inc/classes/lsvr-cpt-listing.php:306
+msgid "Listing Gallery"
+msgstr "Galéria lokácie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:314
+msgid ""
+"You can add some additional images for this listing which will be displayed "
+"on its detail page."
+msgstr "Tu môžete pridať obrázky ktoré sa zobrazia na stránke detailu lokácie."
+
+#: ../inc/classes/lsvr-cpt-listing.php:316
+msgid "Manage Gallery Images"
+msgstr "Upraviť obrázky galérie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:328
+msgid "Listing Metadata"
+msgstr "Metadáta lokácie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:329
+msgid "Schema.org metadata. More info:"
+msgstr "Schema.org metadáta. Viac info:"
+
+#: ../inc/classes/lsvr-cpt-listing.php:339
+msgid "Enable Metadata"
+msgstr "Povoliť metadáta"
+
+#: ../inc/classes/lsvr-cpt-listing.php:347
+msgid "Business Type"
+msgstr "Typ prevádzky"
+
+#: ../inc/classes/lsvr-cpt-listing.php:349
+msgid "General Local Business"
+msgstr "Všeobecná lokálna prevádzka"
+
+#: ../inc/classes/lsvr-cpt-listing.php:350
+msgid "Animal Shelter"
+msgstr "Úkryt pre zvieratá"
+
+#: ../inc/classes/lsvr-cpt-listing.php:351
+msgid "Automotive Business"
+msgstr "Pre motoristov"
+
+#: ../inc/classes/lsvr-cpt-listing.php:352
+msgid "Child Care"
+msgstr "Starostlivosť o deti"
+
+#: ../inc/classes/lsvr-cpt-listing.php:353
+msgid "Dentist"
+msgstr "Zubár"
+
+#: ../inc/classes/lsvr-cpt-listing.php:354
+msgid "Dry Cleaning Or Laundry"
+msgstr "Čistiareň alebo práčovňa"
+
+#: ../inc/classes/lsvr-cpt-listing.php:355
+msgid "Emergency Service"
+msgstr "Pohotovostná služba"
+
+#: ../inc/classes/lsvr-cpt-listing.php:356
+msgid "Employment Agency"
+msgstr "Pracovná agentúra"
+
+#: ../inc/classes/lsvr-cpt-listing.php:357
+msgid "Entertainment Business"
+msgstr "Zábava"
+
+#: ../inc/classes/lsvr-cpt-listing.php:358
+msgid "Financial Service"
+msgstr "Finančné služby"
+
+#: ../inc/classes/lsvr-cpt-listing.php:359
+msgid "Food Establishment"
+msgstr "Jedlo alebo potraviny"
+
+#: ../inc/classes/lsvr-cpt-listing.php:360
+msgid "Government Office"
+msgstr "Úradná kancelária"
+
+#: ../inc/classes/lsvr-cpt-listing.php:361
+msgid "Health And Beauty Business"
+msgstr "Krása a zdravie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:362
+msgid "Home And Construction Business"
+msgstr "Domácnosť a stavebná činnosť"
+
+#: ../inc/classes/lsvr-cpt-listing.php:363
+msgid "Internet Cafe"
+msgstr "Internetová kaviareň"
+
+#: ../inc/classes/lsvr-cpt-listing.php:364
+msgid "Legal Service"
+msgstr "Právne služby"
+
+#: ../inc/classes/lsvr-cpt-listing.php:365
+msgid "Library"
+msgstr "Knižnica"
+
+#: ../inc/classes/lsvr-cpt-listing.php:366
+msgid "Lodging Business"
+msgstr "Ubytovanie"
+
+#: ../inc/classes/lsvr-cpt-listing.php:367
+msgid "Professional Service"
+msgstr "Profesionálne služby"
+
+#: ../inc/classes/lsvr-cpt-listing.php:368
+msgid "Radio Station"
+msgstr "Rádio stanica"
+
+#: ../inc/classes/lsvr-cpt-listing.php:369
+msgid "Real Estate Agent"
+msgstr "Realitný agent"
+
+#: ../inc/classes/lsvr-cpt-listing.php:370
+msgid "Recycling Center"
+msgstr "Recyklačné centrum"
+
+#: ../inc/classes/lsvr-cpt-listing.php:371
+msgid "Self Storage"
+msgstr "Sklad"
+
+#: ../inc/classes/lsvr-cpt-listing.php:372
+msgid "Shopping Center"
+msgstr "Nákupné centrum"
+
+#: ../inc/classes/lsvr-cpt-listing.php:373
+msgid "Sports Activity Location"
+msgstr "Športová lokalita"
+
+#: ../inc/classes/lsvr-cpt-listing.php:374
+msgid "Store"
+msgstr "Obchod"
+
+#: ../inc/classes/lsvr-cpt-listing.php:375
+msgid "Television Station"
+msgstr "Televízna stanica"
+
+#: ../inc/classes/lsvr-cpt-listing.php:376
+msgid "Tourist Information Center"
+msgstr "Turistické centrum"
+
+#: ../inc/classes/lsvr-cpt-listing.php:377
+msgid "Travel Agency"
+msgstr "Cestovná agentúra"
+
+#: ../inc/classes/lsvr-cpt-listing.php:390
+msgid "Country"
+msgstr "Krajina"
+
+#: ../inc/classes/lsvr-cpt-listing.php:391
+msgid ""
+"For example: USA. You can also provide the two-letter country code. For "
+"example: US, DE, FR."
+msgstr ""
+"Napríklad: Slovakia. Môžete použiť aj dvojpísmenové kódové označenie "
+"krajiny. Napríklad: SK, CZ, PL."
+
+#: ../inc/classes/lsvr-cpt-listing.php:402
+msgid "Locality"
+msgstr "Lokalita"
+
+#: ../inc/classes/lsvr-cpt-listing.php:403
+msgid "For example: Mountain View."
+msgstr "Napríklad: Mountain View."
+
+#: ../inc/classes/lsvr-cpt-listing.php:414
+msgid "Region"
+msgstr "Región"
+
+#: ../inc/classes/lsvr-cpt-listing.php:415
+msgid "For example: CA."
+msgstr "Napríklad: CA."
+
+#: ../inc/classes/lsvr-cpt-listing.php:427
+msgid "Postal Code"
+msgstr "PSČ"
+
+#: ../inc/classes/lsvr-cpt-listing.php:428
+msgid "For example: 94043."
+msgstr "Napríklad: 81101."
+
+#: ../inc/classes/lsvr-cpt-listing.php:439
+msgid "Street Address"
+msgstr "Adresa ulice"
+
+#: ../inc/classes/lsvr-cpt-listing.php:440
+msgid "For example: 1600 Amphitheatre Pkwy."
+msgstr "Napríklad: 1600 Amphitheatre Pkwy."
+
+#: ../inc/classes/lsvr-permalink-settings-directory.php:12
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:16
+msgid "LSVR Directory"
+msgstr "LSVR Adresár"
+
+#: ../inc/classes/lsvr-permalink-settings-directory.php:17
+msgid "Archive Slug"
+msgstr "Slug archívu"
+
+#: ../inc/classes/lsvr-permalink-settings-directory.php:22
+msgid "Category Slug"
+msgstr "Slug kategórie"
+
+#: ../inc/classes/lsvr-permalink-settings-directory.php:27
+msgid "Tag Slug"
+msgstr "Slug značky"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:68
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:68
+msgid "Title"
+msgstr "Nadpis"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:69
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:69
+msgid "Title of this section."
+msgstr "Nadpis tejto sekcie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:70
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:22
+msgid "Featured Listing"
+msgstr "Odporúčaná lokácia"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:80
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:26
+msgid "Choose listing to display."
+msgstr "Zvoľte si lokáciu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:88
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:99
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:32
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:39
+msgid "Display Address"
+msgstr "Zobraziť adresu"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:97
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:108
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:37
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:44
+msgid "Display Category"
+msgstr "Zobraziť kategóriu"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:106
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:42
+msgid "Display Excerpt"
+msgstr "Zobraziť zhrnutie"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:115
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:117
+msgid "More Link Label"
+msgstr "Popisok tlačidla \"viac\""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:116
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:118
+msgid "Link to directory archive. Leave blank to hide."
+msgstr "Odkaz na archív adresára. Ponechajte prázdne pre skrytie odkazu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:117
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:119
+msgid "More listings"
+msgstr "Viac lokácií"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:125
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:127
+msgid "Unique ID"
+msgstr "Unikátne ID"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:126
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:128
+msgid ""
+"You can use this ID to style this specific element with custom CSS, for "
+"example."
+msgstr ""
+"Toto ID môžete použiť napríklad na naštýlovanie tohto konkrétneho elementu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:79
+msgid "Category"
+msgstr "Kategória"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:80
+msgid "Display listings from a specific category."
+msgstr "Zobraziť iba lokácie z konkrétnej kategórie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:88
+msgid "Limit"
+msgstr "Počet"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:89
+msgid "How many listings to display."
+msgstr "Počet lokácií."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:90
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:35
+msgid "All"
+msgstr "Všetko"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-categories.php:16
+msgid "LSVR Directory Listing Categories"
+msgstr "LSVR Kategórie Lokácií"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-categories.php:17
+msgid "List of Listing categories"
+msgstr "Zoznam kategórií lokácií"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-categories.php:20
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:20
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:20
+msgid "Title:"
+msgstr "Nadpis:"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:16
+msgid "LSVR Featured Directory Listing"
+msgstr "LSVR Odporúčaná Lokácia"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:17
+msgid "Single directory Listing post"
+msgstr "Lokácia z adresára"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:25
+msgid "Listing:"
+msgstr "Lokácia:"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:29
+msgid "Random"
+msgstr "Náhodný výber"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:47
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:49
+msgid "More Button Label:"
+msgstr "Popisok tlačidla \"viac\":"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:48
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:50
+msgid "Link to listing post archive. Leave blank to hide."
+msgstr "Odkaz na archív adresára. Ponechajte prázdne pre skrytie odkazu."
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:50
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:52
+msgid "More Listings"
+msgstr "Viac lokácií"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:127
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:136
+#, php-format
+msgid "in %s"
+msgstr "v %s"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:147
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:158
+msgid "There are no listings"
+msgstr "Žiadne lokácie"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:17
+msgid "List of Directory listing posts"
+msgstr "Zoznam lokácií z adresára"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:25
+msgid "Category:"
+msgstr "Kategória:"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:26
+msgid "Display listings only from a certain category."
+msgstr "Zobraziť iba lokácie z konkrétnej kategórie."
+
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:29
+msgid "None"
+msgstr "----"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:32
+msgid "Limit:"
+msgstr "Počet:"
+
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:33
+msgid "Number of listings to display."
+msgstr "Zvoľte koľko lokácií sa má zobraziť."
+
+#: ../inc/geocode-listing.php:110
+msgid "The Google API request returned an error:"
+msgstr "Požiadavka na Google API vrátila nasledujúcu chybovú hlášku:"
+
+#: ../inc/geocode-listing.php:111
+msgid ""
+"Please consider using Latitude and Longitude options instead of Exact "
+"Address or upgrade your Google API plan."
+msgstr ""
+"Zvážte prosím použitie zemepisnej šírky a dĺžky namiesto presnej adresy "
+"alebo upgradujte váš Google API plán."
+
+#: ../inc/vc-config.php:29 ../inc/vc-config.php:42
+msgid "LSVR Widgets"
+msgstr "LSVR Widgety"
+
+#~ msgid "Choose listing to display"
+#~ msgstr "Zvoľte si lokáciu"

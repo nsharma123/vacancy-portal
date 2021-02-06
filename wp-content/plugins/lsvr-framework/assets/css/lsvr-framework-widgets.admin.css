@@ -1,0 +1,8 @@
+.lsvr-widget-field { margin: 1em 0; line-height: 1.5em; }
+.lsvr-widget-field__description { margin: 5px 0; }
+
+.lsvr-widget-field__image { margin: 10px 0; }
+.lsvr-widget-field__image-message { font-style: italic; }
+.wp-core-ui .lsvr-widget-field__image-remove { display: none; }
+.lsvr-widget-field__image--has-image .lsvr-widget-field__image-message { display: none; }
+.wp-core-ui .lsvr-widget-field__image--has-image .lsvr-widget-field__image-remove { display: inline; }

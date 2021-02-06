@@ -1,0 +1,106 @@
+/**
+* Theme Name: TownPress Child
+* Theme URI: http://preview.lsvr.sk/townpress
+* Description: TownPress child theme
+* Author: LSVRthemes
+* Author URI: http://themeforest.net/user/LSVRthemes/portfolio
+* Template: townpress
+* Version: 2.1.0
+*/
+
+/* Add your custom CSS after this comment */
+
+/* structure changes */
+.lsvr-grid__col--span-3 {
+	width: 19.999%;
+	padding: 0;
+}
+.lsvr-grid__col--span-6 {
+	width: 58.998%;
+}
+.lsvr-grid__col--push-3 {
+	left: 19.999%;
+}
+.lsvr-grid__col--pull-6 {
+	left: -58.998%;
+}
+
+/* main breadcrumb header */
+.main__header {
+	padding: 15px;
+}
+.main__title {
+	padding: 0;
+	font-size: 20px;
+}
+
+/* changing section margins-paddings */
+.main__header {
+	margin: 0 0 15px 0;
+}
+.widget {
+	margin: 15px 0;
+}
+.widget__inner {
+	padding: 15px;
+}
+.c-content-box {
+	padding: 15px;
+}
+
+/* footer changes as per new structure */
+.footer-widgets .lsvr-grid__col--span-3 {
+	width: 24.999%;
+}
+.footer-widgets {
+	display: none;
+}
+/* -----------------------------------------------------------------------------
+
+    RESPONSIVE DEFINITIONS
+
+----------------------------------------------------------------------------- */
+
+    /* -------------------------------------------------------------------------
+        LARGE DEVICES
+		devices with width between 992px and 1199px
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 1199px ) {
+
+		/* your CSS here */
+
+	}
+
+    /* -------------------------------------------------------------------------
+        MEDIUM DEVICES
+		devices with width between 768px and 991px
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 991px ) {
+
+		/* your CSS here */
+
+	}
+
+	/* -------------------------------------------------------------------------
+        SMALL DEVICES
+		devices with width between 481px and 767px
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 767px ) {
+
+		/* your CSS here */
+
+	}
+
+	/* -------------------------------------------------------------------------
+        EXTRA SMALL DEVICES
+		devices with width up to 480px
+    ------------------------------------------------------------------------- */
+
+	@media ( max-width: 480px ) {
+
+		/* your CSS here */
+
+	}

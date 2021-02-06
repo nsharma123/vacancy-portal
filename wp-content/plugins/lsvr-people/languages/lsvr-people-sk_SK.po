@@ -1,0 +1,349 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LSVR People\n"
+"POT-Creation-Date: 2018-12-09 16:16+0100\n"
+"PO-Revision-Date: 2018-12-09 16:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/blocks-config.php:45 ../inc/vc-config.php:27
+msgid "LSVR People Widget"
+msgstr "LSVR Ľudia (widget)"
+
+#: ../inc/blocks-config.php:46 ../inc/vc-config.php:28
+msgid "List of person posts"
+msgstr "Zoznam osôb"
+
+#: ../inc/blocks-config.php:49 ../inc/blocks-config.php:63
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: ../inc/blocks-config.php:59 ../inc/vc-config.php:40
+msgid "LSVR Featured Person Widget"
+msgstr "LSVR Odporúčaná Osoba"
+
+#: ../inc/blocks-config.php:60 ../inc/vc-config.php:41
+msgid "Single person post"
+msgstr "Samostatná osoba"
+
+#: ../inc/classes/lsvr-cpt-person.php:14
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:68
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:22
+msgid "People"
+msgstr "Ľudia"
+
+#: ../inc/classes/lsvr-cpt-person.php:15
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:77
+msgid "Person"
+msgstr "Osoba"
+
+#: ../inc/classes/lsvr-cpt-person.php:16 ../inc/classes/lsvr-cpt-person.php:17
+#: ../inc/classes/lsvr-cpt-person.php:19
+msgid "Add New Person"
+msgstr "Pridať novú osobu"
+
+#: ../inc/classes/lsvr-cpt-person.php:18
+msgid "Edit Person"
+msgstr "Upraviť osobu"
+
+#: ../inc/classes/lsvr-cpt-person.php:20
+msgid "View Person"
+msgstr "Zobraziť osobu"
+
+#: ../inc/classes/lsvr-cpt-person.php:21
+msgid "Search people"
+msgstr "Hľadať ľudí"
+
+#: ../inc/classes/lsvr-cpt-person.php:22
+msgid "No people found"
+msgstr "Neboli nájdené žiadne osoby"
+
+#: ../inc/classes/lsvr-cpt-person.php:23
+msgid "No people found in trash"
+msgstr "V koši sa nenachádzajú žiadne osoby"
+
+#: ../inc/classes/lsvr-cpt-person.php:42 ../inc/classes/lsvr-cpt-person.php:56
+#: ../inc/classes/widgets/lsvr-widget-person-categories.php:22
+msgid "Person Categories"
+msgstr "Kategórie osôb"
+
+#: ../inc/classes/lsvr-cpt-person.php:43
+msgid "Person Category"
+msgstr "Kategória osoby"
+
+#: ../inc/classes/lsvr-cpt-person.php:44
+msgid "Search Person Categories"
+msgstr "Hľadať v kategóriach"
+
+#: ../inc/classes/lsvr-cpt-person.php:45
+msgid "Popular Person Categories"
+msgstr "Populárne kategórie"
+
+#: ../inc/classes/lsvr-cpt-person.php:46
+msgid "All Person Categories"
+msgstr "Všetky kategórie"
+
+#: ../inc/classes/lsvr-cpt-person.php:47
+msgid "Parent Person Categories"
+msgstr "Nadradená kategória"
+
+#: ../inc/classes/lsvr-cpt-person.php:48
+msgid "Parent Person Categories:"
+msgstr "Nadradená kategória:"
+
+#: ../inc/classes/lsvr-cpt-person.php:49
+msgid "Edit Person Category"
+msgstr "Upraviť kategóriu"
+
+#: ../inc/classes/lsvr-cpt-person.php:50
+msgid "Update Person Category"
+msgstr "Aktualizovať kategóriu"
+
+#: ../inc/classes/lsvr-cpt-person.php:51
+msgid "Add New Person Category"
+msgstr "Pridať novú kategóriu"
+
+#: ../inc/classes/lsvr-cpt-person.php:52
+msgid "New Person Category Name"
+msgstr "Názov novej kategórie"
+
+#: ../inc/classes/lsvr-cpt-person.php:53
+msgid "Separate person categories by comma"
+msgstr "Oddeľte kategórie čiarkou"
+
+#: ../inc/classes/lsvr-cpt-person.php:54
+msgid "Add or remove person categories"
+msgstr "Pridať alebo odstrániť kategórie"
+
+#: ../inc/classes/lsvr-cpt-person.php:55
+msgid "Choose from the most used person categories"
+msgstr "Vyberte si z najviac používaných kategórií"
+
+#: ../inc/classes/lsvr-cpt-person.php:88
+msgid "Person Settings"
+msgstr "Nastavenia osoby"
+
+#: ../inc/classes/lsvr-cpt-person.php:98
+msgid "Role"
+msgstr "Rola"
+
+#: ../inc/classes/lsvr-cpt-person.php:99
+msgid "Brief description of this person's role."
+msgstr "Krátky popis osoby."
+
+#: ../inc/classes/lsvr-cpt-person.php:106
+msgid "Email"
+msgstr "Email"
+
+#: ../inc/classes/lsvr-cpt-person.php:114
+msgid "Phone"
+msgstr "Telefón"
+
+#: ../inc/classes/lsvr-cpt-person.php:121
+msgid "Website"
+msgstr "Webstránka"
+
+#: ../inc/classes/lsvr-cpt-person.php:128
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../inc/classes/lsvr-cpt-person.php:135
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../inc/classes/lsvr-cpt-person.php:142
+msgid "Skype"
+msgstr "Skype"
+
+#: ../inc/classes/lsvr-cpt-person.php:149
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../inc/classes/lsvr-permalink-settings-people.php:12
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:16
+msgid "LSVR People"
+msgstr "LSVR Ľudia"
+
+#: ../inc/classes/lsvr-permalink-settings-people.php:17
+msgid "Archive Slug"
+msgstr "Slug archívu"
+
+#: ../inc/classes/lsvr-permalink-settings-people.php:22
+msgid "Category Slug"
+msgstr "Slug kategórie"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:66
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:66
+msgid "Title"
+msgstr "Nadpis"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:67
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:67
+msgid "Title of this section."
+msgstr "Nadpis sekcie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:68
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:22
+msgid "Featured Person"
+msgstr "Odporúčaná osoba"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:78
+msgid "Choose person to display."
+msgstr "Zvoľte si osobu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:86
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:32
+msgid "Display Excerpt"
+msgstr "Zobraziť zhrnutie"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:95
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:97
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:37
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:39
+msgid "Display Social Links"
+msgstr "Zobraziť odkazy na sociálne siete"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:104
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:106
+msgid "More Link Label"
+msgstr "Popisok tlačidla \"viac\""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:105
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:107
+msgid "Link to people archive. Leave blank to hide."
+msgstr "Odkaz na archív osôb. Ponechajte prázdne pre skrytie odkazu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:106
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:108
+msgid "More people"
+msgstr "Viac osôb"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:114
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:116
+msgid "Unique ID"
+msgstr "Unikátne ID"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-featured-widget.php:115
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:117
+msgid ""
+"You can use this ID to style this specific element with custom CSS, for "
+"example."
+msgstr ""
+"Toto ID môžete použiť napríklad na naštýlovanie tohto konkrétneho elementu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:77
+msgid "Category"
+msgstr "Kategória"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:78
+msgid "Display people from a specific category."
+msgstr "Zobraziť iba osoby z konkrétnej kategórie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:86
+msgid "Limit"
+msgstr "Počet"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:87
+msgid "How many people to display."
+msgstr "Počet osôb."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-person-list-widget.php:88
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:35
+msgid "All"
+msgstr "Všetko"
+
+#: ../inc/classes/widgets/lsvr-widget-person-categories.php:16
+msgid "LSVR Person Categories"
+msgstr "LSVR Kategórie Osôb"
+
+#: ../inc/classes/widgets/lsvr-widget-person-categories.php:17
+msgid "List of Person Post categories"
+msgstr "Zoznam kategórií osôb"
+
+#: ../inc/classes/widgets/lsvr-widget-person-categories.php:20
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:20
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:20
+msgid "Title:"
+msgstr "Nadpis:"
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:16
+msgid "LSVR Featured Person"
+msgstr "LSVR Odporúčaná Osoba"
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:17
+msgid "Single Person post"
+msgstr "Voliteľná osoba"
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:25
+msgid "Person:"
+msgstr "Osoba:"
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:26
+msgid "Choose person to display"
+msgstr "Zvoľte si osobu"
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:29
+msgid "Random"
+msgstr "Náhodný výber"
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:42
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:44
+msgid "More Button Label:"
+msgstr "Popisok tlačidla \"viac\":"
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:43
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:45
+msgid "Link to person post archive. Leave blank to hide"
+msgstr "Odkaz na archív osôb. Ponechajte prázdne pre skrytie odkazu"
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:45
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:47
+msgid "More People"
+msgstr "Viac osôb"
+
+#: ../inc/classes/widgets/lsvr-widget-person-featured.php:147
+msgid "Please choose a person to display"
+msgstr "Zvoľte si osobu"
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:17
+msgid "List of Person posts"
+msgstr "Zoznam osôb"
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:25
+msgid "Category:"
+msgstr "Kategória:"
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:26
+msgid "Display people only from a certain category"
+msgstr "Zobraziť iba osoby z konkrétnej kategórie"
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:29
+msgid "None"
+msgstr "----"
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:32
+msgid "Limit:"
+msgstr "Počet:"
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:33
+msgid "Number of people to display"
+msgstr "Počet osôb"
+
+#: ../inc/classes/widgets/lsvr-widget-person-list.php:153
+msgid "There are no people"
+msgstr "Žiadne osoby"
+
+#: ../inc/vc-config.php:29 ../inc/vc-config.php:42
+msgid "LSVR Widgets"
+msgstr "LSVR Widgety"

@@ -1,0 +1,72 @@
+
+---Downloaded files---
+The import files for: TownPress Widgets were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/town-press
+Data file = /var/www/html/town-press/wp-content/themes/townpress/inc/demo-import/content-blank.xml
+Widget file = /var/www/html/town-press/wp-content/themes/townpress/inc/demo-import/widgets.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Default Left Sidebar : 
+
+TownPress Menu - No Title - Imported
+TownPress Weather - Weather Info - Imported
+lsvr_galleries_gallery_featured - Featured Gallery - Site does not support widget
+
+Default Right Sidebar : 
+
+lsvr_notices_notice_list - Notices - Site does not support widget
+lsvr_directory_listing_list - Interesting Places - Site does not support widget
+
+Footer Widgets : 
+
+Text - About TownPress - Widget already exists
+lsvr_events_event_list - Upcoming Events - Site does not support widget
+lsvr_documents_document_list - Important Forms - Site does not support widget
+Text - Quick Contact - Widget already exists
+
+Dashboard Home : 
+
+TownPress Menu - No Title - Imported
+lsvr_directory_listing_list - Interesting Places - Site does not support widget
+
+Notices : 
+
+lsvr_notices_notice_categories - Notice Categories - Site does not support widget
+lsvr_notices_notice_list - Notices - Site does not support widget
+
+Directory : 
+
+lsvr_directory_listing_featured - Featured Listing - Site does not support widget
+lsvr_directory_listing_list - Directory - Site does not support widget
+
+Events : 
+
+lsvr_events_event_filter - Filter Events - Site does not support widget
+lsvr_events_event_featured - Featured Event - Site does not support widget
+lsvr_events_event_list - Upcoming Events - Site does not support widget
+lsvr_events_event_locations - Locations - Site does not support widget
+
+Galleries : 
+
+lsvr_galleries_gallery_featured - Featured Gallery - Site does not support widget
+lsvr_galleries_gallery_list - Galleries - Site does not support widget
+
+Documents : 
+
+lsvr_documents_document_featured - Featured Document - Site does not support widget
+lsvr_documents_document_attachments - Attachments - Site does not support widget
+
+People : 
+
+lsvr_people_person_featured - Featured Person - Site does not support widget
+lsvr_people_person_list - People - Site does not support widget
+
+
+
+---pt-ocdi/after_import---
+

@@ -1,0 +1,412 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LSVR Galleries\n"
+"POT-Creation-Date: 2018-12-09 13:32+0100\n"
+"PO-Revision-Date: 2018-12-09 13:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/blocks-config.php:45 ../inc/vc-config.php:27
+msgid "LSVR Galleries Widget"
+msgstr "LSVR Galérie (widget)"
+
+#: ../inc/blocks-config.php:46 ../inc/vc-config.php:28
+msgid "List of gallery posts"
+msgstr "Zoznam galérií"
+
+#: ../inc/blocks-config.php:49 ../inc/blocks-config.php:63
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: ../inc/blocks-config.php:59 ../inc/vc-config.php:40
+msgid "LSVR Featured Gallery Widget"
+msgstr "LSVR Vybraná Galéria (widget)"
+
+#: ../inc/blocks-config.php:60 ../inc/vc-config.php:41
+msgid "Single gallery post"
+msgstr "Voliteľná galéria"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:14
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:70
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:22
+msgid "Galleries"
+msgstr "Galérie"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:15
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:79
+msgid "Gallery"
+msgstr "Galéria"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:16
+#: ../inc/classes/lsvr-cpt-gallery.php:17
+#: ../inc/classes/lsvr-cpt-gallery.php:19
+msgid "Add New Gallery"
+msgstr "Pridať novú galériu"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:18
+msgid "Edit Gallery"
+msgstr "Upraviť galériu"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:20
+msgid "View Gallery"
+msgstr "Zobraziť galériu"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:21
+msgid "Search galleries"
+msgstr "Hľadať galérie"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:22
+msgid "No galleries found"
+msgstr "Neboli nájdené žiadne galérie"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:23
+msgid "No galleries found in trash"
+msgstr "V koši sa nenachádzajú žiadne galérie"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:42
+#: ../inc/classes/lsvr-cpt-gallery.php:56
+#: ../inc/classes/widgets/lsvr-widget-gallery-categories.php:22
+msgid "Gallery Categories"
+msgstr "Kategórie galérií"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:43
+msgid "Gallery Category"
+msgstr "Kategória galérie"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:44
+msgid "Search Gallery Categories"
+msgstr "Hľadať v kategóriach"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:45
+msgid "Popular Gallery Categories"
+msgstr "Populárne kategórie"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:46
+msgid "All Gallery Categories"
+msgstr "Všetky kategórie"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:47
+msgid "Parent Gallery Category"
+msgstr "Nadradená kategória"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:48
+msgid "Parent Gallery Category:"
+msgstr "Nadradená kategória:"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:49
+msgid "Edit Gallery Category"
+msgstr "Upraviť kategóriu"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:50
+msgid "Update Gallery Category"
+msgstr "Aktualizovať kategóriu"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:51
+msgid "Add New Gallery Category"
+msgstr "Pridať novú kategóriu"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:52
+msgid "New Gallery Category Name"
+msgstr "Názov novej kategórie"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:53
+msgid "Separate gallery categories by comma"
+msgstr "Oddeľte kategórie čiarkou"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:54
+msgid "Add or remove gallery categories"
+msgstr "Pridať alebo odstrániť kategórie"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:55
+msgid "Choose from the most used gallery categories"
+msgstr "Vyberte si z najviac používaných kategórií"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:77
+#: ../inc/classes/lsvr-cpt-gallery.php:91
+msgid "Gallery Tags"
+msgstr "Značky galérií"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:78
+msgid "Gallery Tag"
+msgstr "Značka galérie"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:79
+msgid "Search Gallery Tags"
+msgstr "Hľadať v značkách"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:80
+msgid "Popular Gallery Tags"
+msgstr "Populárne značky"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:81
+msgid "All Gallery Tags"
+msgstr "Všetky značky"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:82
+msgid "Parent Gallery Tag"
+msgstr "Nadradená značka"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:83
+msgid "Parent Gallery Tag:"
+msgstr "Nadradená značka:"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:84
+msgid "Edit Gallery Tag"
+msgstr "Upraviť značku"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:85
+msgid "Update Gallery Tag"
+msgstr "Aktualizovať značku"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:86
+msgid "Add New Gallery Tag"
+msgstr "Pridať novú značku"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:87
+msgid "New Gallery Tag Name"
+msgstr "Názov novej značky"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:88
+msgid "Separate gallery tags by comma"
+msgstr "Oddeľte značky čiarkou"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:89
+msgid "Add or remove gallery tags"
+msgstr "Pridať alebo odstrániť značky"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:90
+msgid "Choose from the most used gallery tags"
+msgstr "Vyberte si z najviac používaných značiek"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:127
+msgid "Gallery Images"
+msgstr "Obrázky galérie"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:137
+msgid ""
+"Upload new or select existing images. Don't forget to set the gallery "
+"thumbnail (via Featured Image) as well."
+msgstr ""
+"Nahrajte nové alebo vyberte existujúce obrázky. Nezabudnite tiež nastaviť "
+"náhľad galérie (pomocou ilustračného obrázku)."
+
+#: ../inc/classes/lsvr-cpt-gallery.php:139
+msgid "Manage Gallery Images"
+msgstr "Vybrať obrázky galérie"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:151
+msgid "Number of Images"
+msgstr "Počet obrázkov"
+
+#: ../inc/classes/lsvr-cpt-gallery.php:171
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:122
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:127
+#, php-format
+msgid "%d image"
+msgid_plural "%d images"
+msgstr[0] "%d obrázok"
+msgstr[1] "%d obrázky"
+msgstr[2] "%d obrázkov"
+
+#: ../inc/classes/lsvr-permalink-settings-galleries.php:12
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:16
+msgid "LSVR Galleries"
+msgstr "LSVR Galérie"
+
+#: ../inc/classes/lsvr-permalink-settings-galleries.php:17
+msgid "Archive Slug"
+msgstr "Slug archívu"
+
+#: ../inc/classes/lsvr-permalink-settings-galleries.php:22
+msgid "Category Slug"
+msgstr "Slug kategórie"
+
+#: ../inc/classes/lsvr-permalink-settings-galleries.php:27
+msgid "Tag Slug"
+msgstr "Slug značky"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:68
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:68
+msgid "Title"
+msgstr "Nadpis"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:69
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:69
+msgid "Title of this section."
+msgstr "Nadpis tejto sekcie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:70
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:22
+msgid "Featured Gallery"
+msgstr "Vybraná galéria"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:80
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:26
+msgid "Choose gallery to display."
+msgstr "Zvoľte si galériu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:88
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:99
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:32
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:39
+msgid "Display Date"
+msgstr "Zobraziť dátum"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:97
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:108
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:37
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:44
+msgid "Display Image Count"
+msgstr "Zobraziť počet obrázkov"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:106
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:42
+msgid "Display Excerpt"
+msgstr "Zobraziť zhrnutie"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:115
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:117
+msgid "More Link Label"
+msgstr "Popisok tlačidla \"viac\""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:116
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:118
+msgid "Link to galleries archive. Leave blank to hide."
+msgstr "Odkaz na archív galérií. Ponechajte prázdne pre skrytie odkazu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:117
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:119
+msgid "More galleries"
+msgstr "Viac galérií"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:125
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:127
+msgid "Unique ID"
+msgstr "Unikátne ID"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-featured-widget.php:126
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:128
+msgid ""
+"You can use this ID to style this specific element with custom CSS, for "
+"example."
+msgstr ""
+"Toto ID môžete použiť napríklad na naštýlovanie tohto konkrétneho elementu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:79
+msgid "Category"
+msgstr "Kategória"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:80
+msgid "Display galleries from a specific category."
+msgstr "Zobraziť iba galérie z konkrétnej kategórie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:88
+msgid "Limit"
+msgstr "Počet"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:89
+msgid "How many galleries to display."
+msgstr "Počet galérií."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-gallery-list-widget.php:90
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:35
+msgid "All"
+msgstr "Všetko"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-categories.php:16
+msgid "LSVR Gallery Categories"
+msgstr "LSVR Kategórie Galérií"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-categories.php:17
+msgid "List of Gallery categories"
+msgstr "Zoznam kategórií"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-categories.php:20
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:20
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:20
+msgid "Title:"
+msgstr "Nadpis:"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:16
+msgid "LSVR Featured Gallery"
+msgstr "LSVR Vybraná Galéria"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:17
+msgid "Single Gallery post"
+msgstr "Voliteľná galéria"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:25
+msgid "Gallery:"
+msgstr "Galéria:"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:29
+msgid "Random"
+msgstr "Náhodný výber"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:47
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:49
+msgid "More Button Label:"
+msgstr "Popisok tlačidla \"viac\":"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:48
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:50
+msgid "Link to gallery post archive. Leave blank to hide."
+msgstr "Odkaz na archív galérií. Ponechajte prázdne pre skrytie odkazu."
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:50
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:52
+msgid "More Galleries"
+msgstr "Viac galérií"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-featured.php:142
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:150
+msgid "There are no galleries"
+msgstr "Žiadne galérie"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:17
+msgid "List of Gallery posts"
+msgstr "Zoznam galérií"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:25
+msgid "Category:"
+msgstr "Kategória:"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:26
+msgid "Display galleries only from a certain category."
+msgstr "Zobraziť iba galérie z konkrétnej kategórie."
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:29
+msgid "None"
+msgstr "----"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:32
+msgid "Limit:"
+msgstr "Počet:"
+
+#: ../inc/classes/widgets/lsvr-widget-gallery-list.php:33
+msgid "Number of galleries to display."
+msgstr "Počet galérií."
+
+#: ../inc/vc-config.php:29 ../inc/vc-config.php:42
+msgid "LSVR Widgets"
+msgstr "LSVR Widgety"
+
+#~ msgid "Published date of gallery."
+#~ msgstr "Dátum publikovania galérie."
+
+#~ msgid "%d photo"
+#~ msgid_plural "%d photos"
+#~ msgstr[0] "%d photo"
+#~ msgstr[1] ""
+#~ msgstr[2] ""

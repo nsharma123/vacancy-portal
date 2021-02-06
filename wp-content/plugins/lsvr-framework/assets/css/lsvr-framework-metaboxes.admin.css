@@ -1,0 +1,103 @@
+/* Post metafields */
+.lsvr-post-metabox__metafields { padding: 20px 10px; }
+.lsvr-post-metafield { margin: 20px 0 0 0; }
+.lsvr-post-metafield:first-child { margin-top: 0; }
+.lsvr-post-metafield--horizontal { margin: 15px 0; }
+.lsvr-post-metafield__inner:before,
+.lsvr-post-metafield__inner:after { display: table; content: ''; clear: both; }
+.lsvr-post-metafield__header { float: left; margin: 0 15px 0 0; width: 200px; }
+.lsvr-post-metafield__title { margin: 0; }
+.lsvr-post-metafield__description { margin: 5px 0 0 0; font-size: 12px; }
+.lsvr-post-metafield__content { float: left; }
+#side-sortables .lsvr-post-metabox__metafields { padding: 0; }
+#side-sortables .lsvr-post-metafield__header,
+#side-sortables .lsvr-post-metafield__content { float: none; }
+#side-sortables .lsvr-post-metafield__description { margin-bottom: 15px; font-size: 13px; }
+
+/* Attachment field */
+.lsvr-post-metafield-attachment__item-list { margin: 0; }
+.lsvr-post-metafield-attachment__item { display: block; position: relative; margin: 0; padding: 0; border-bottom: 1px solid #f0f0f0; background-color: #FFF; cursor: move; }
+.lsvr-post-metafield-attachment__item-inner { position: relative; padding: 7px 30px 7px 30px; }
+.lsvr-post-metafield-attachment__item-inner:before { content: '\f103'; position: absolute; top: 5px; left: 0; font-family: dashicons; font-size: 18px; color: #94c0d2; }
+.lsvr-post-metafield-attachment__btn-remove { display: block; position: absolute; top: 5px; right: 0; margin: 0; padding: 0; width: 20px; height: 20px; font-size: 18px; border: 0; background-color: transparent; color: #444; cursor: pointer; }
+.lsvr-post-metafield-attachment__hint { clear: both; margin: 5px 0 10px 0; }
+
+/* External Attachment field */
+.lsvr-post-metafield-ext-attachment__item-list { margin: 0; }
+.lsvr-post-metafield-ext-attachment__item { display: block; position: relative; margin: 0; padding: 0; border-bottom: 1px solid #f0f0f0; background-color: #FFF; cursor: move; }
+.lsvr-post-metafield-ext-attachment__item-inner { position: relative; padding: 7px 30px 7px 30px; }
+.lsvr-post-metafield-ext-attachment__item-inner:before { content: '\f103'; position: absolute; top: 5px; left: 0; font-family: dashicons; font-size: 18px; color: #94c0d2; }
+.lsvr-post-metafield-ext-attachment__btn-remove { display: block; position: absolute; top: 5px; right: 0; margin: 0; padding: 0; width: 20px; height: 20px; font-size: 18px; border: 0; background-color: transparent; color: #444; cursor: pointer; }
+.lsvr-post-metafield-ext-attachment__hint { clear: both; margin: 5px 0 10px 0; }
+.lsvr-post-metafield-ext-attachment__url-input { display: inline; margin: 0; padding: 6px; width: 100%; max-width: 270px; }
+.lsvr-post-metafield-ext-attachment__btn-add { display: inline; }
+
+/* Checkbox field */
+.lsvr-post-metafield-checkbox__item { display: block; margin: 5px 10px 0 0; }
+.lsvr-post-metafield-checkbox__item:first-child { margin-top: 0; }
+.lsvr-post-metafield-checkbox--style-inline .lsvr-post-metafield-checkbox__item { display: inline-block; }
+
+/* Datepicker */
+.lsvr-post-metafield__datepicker  { margin: -5px 0 0 -10px; padding: 15px 20px; border: 1px solid transparent; border-radius: 3px; background-color: #FFF; border-color: #EEE; }
+.lsvr-post-metafield__datepicker .ui-datepicker-title { position: relative; margin-bottom: 10px; text-align: center; font-size: 1.125em; font-weight: 600; z-index: 1; }
+.lsvr-post-metafield__datepicker .ui-datepicker-prev,
+.lsvr-post-metafield__datepicker .ui-datepicker-next { display: block; position: absolute; top: 14px; left: 20px; width: 20px; height: 20px; text-decoration: none; text-align: center; z-index: 2; cursor: pointer; color: #cf441e; }
+.lsvr-post-metafield__datepicker .ui-datepicker-next { left: auto; right: 20px; }
+.lsvr-post-metafield__datepicker .ui-datepicker-prev span,
+.lsvr-post-metafield__datepicker .ui-datepicker-next span { display: none; }
+.lsvr-post-metafield__datepicker .ui-datepicker-prev:before,
+.lsvr-post-metafield__datepicker .ui-datepicker-next:before { position: absolute; top: 50%; left: 0; width: 100%; left: 0; margin-top: -7px; font-family: dashicons; font-size: 18px; }
+.lsvr-post-metafield__datepicker .ui-datepicker-prev:before { content: '\f341'; }
+.lsvr-post-metafield__datepicker .ui-datepicker-next:before { content: '\f345'; }
+.lsvr-post-metafield__datepicker table { margin: 0; }
+.lsvr-post-metafield__datepicker th { font-size: 0.8125em; font-weight: 600; text-transform: uppercase; color: #0068a0; }
+.lsvr-post-metafield__datepicker td { padding: 7px 10px 5px 10px; text-align: center; font-size: 0.875em; }
+.lsvr-post-metafield__datepicker td a { text-decoration: none; color: #333; }
+.lsvr-post-metafield__datepicker td a:hover { text-decoration: underline; }
+.lsvr-post-metafield__datepicker .ui-state-active { font-weight: bold; color: #cf441e; }
+.lsvr-post-metafield__datepicker .ui-state-highlight { font-weight: bold; color: #111; }
+.lsvr-post-metafield__datepicker .ui-datepicker-unselectable { color: #CCC; }
+
+/* Date field */
+.lsvr-post-metafield-date__input-wrapper { position: relative; }
+.lsvr-post-metafield-date__input-wrapper:before { content: '\f508'; position: absolute; top: -2px; right: 5px; font-family: dashicons; font-size: 18px; color: #0273aa; }
+
+/* Datetime field */
+.lsvr-post-metafield-datetime__input-wrapper { position: relative; }
+.lsvr-post-metafield-datetime__input-wrapper:before { content: '\f508'; position: absolute; top: -2px; right: 8px; font-family: dashicons; font-size: 18px; color: #0273aa; }
+.lsvr-post-metafield-datetime__time-wrapper { display: inline-block; }
+
+/* Gallery field */
+.lsvr-post-metafield-gallery__item-list { margin: 0; }
+.lsvr-post-metafield-gallery__item-list:after,
+.lsvr-post-metafield-gallery__item-list:before { content: ''; display: table; clear: both; height: 1px; }
+.lsvr-post-metafield-gallery__item { display: block; float: left; margin: 0; padding: 2px; cursor: move; text-align: center; }
+.lsvr-post-metafield-gallery__item:nth-child(3n+1) { clear: left; }
+.lsvr-post-metafield-gallery__item-inner { position: relative; }
+.lsvr-post-metafield-gallery__image { display: block; max-width: 80px; margin: 0; }
+.lsvr-post-metafield-gallery__btn-remove { display: block; position: absolute; top: 5px; right: 5px; margin: 0; padding: 0; width: 20px; height: 20px; font-size: 18px; text-align: center;
+	border: 0; color: #FFF; background-color: #cd4335; border-radius: 2px; cursor: pointer; }
+.lsvr-post-metafield-gallery__btn-remove:hover { background-color: #db4c3d; }
+.lsvr-post-metafield-gallery__hint { clear: both; margin: 5px 0 10px 0; }
+
+/* Opening Hours */
+.lsvr-post-metafield-opening-hours__row { margin-top: 15px; }
+.lsvr-post-metafield-opening-hours__row:first-child { margin-top: 0; }
+.lsvr-post-metafield-opening-hours__time-wrapper { padding: 5px 0; }
+.lsvr-post-metafield-opening-hours__label { display: inline-block; width: 100px; }
+
+/* Radio field */
+.lsvr-post-metafield-radio__item { display: block; margin: 5px 10px 0 0; }
+.lsvr-post-metafield-radio__item:first-child { margin-top: 0; }
+.lsvr-post-metafield-radio--style-inline .lsvr-post-metafield-radio__item { display: inline-block; }
+
+/* Separator */
+.lsvr-post-metafield-separator { width: 200px; }
+
+/* Slider field */
+.lsvr-post-metafield-slider__slider { display: block; position: relative; width: 100%; max-width: 300px; height: 4px; background: green; }
+.lsvr-post-metafield-slider__slider > .ui-slider-handle { display: block; position: absolute; top: -3px;
+	margin-left: -5px; width: 10px; height: 10px; background: red; outline: none; cursor: ew-resize; }
+
+/* Textarea field */
+.lsvr-post-metafield-textarea { width: 25em; height: 100px; }

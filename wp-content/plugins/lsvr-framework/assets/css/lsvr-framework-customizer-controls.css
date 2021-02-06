@@ -1,0 +1,23 @@
+/*  Sidebars control */
+.lsvr-customizer-control-sidebars__list { margin: 20px 0 10px 0; }
+.lsvr-customizer-control-sidebars__item { position: relative; padding-right: 35px; cursor: move; }
+.lsvr-customizer-control-sidebars__remove-button { position: absolute; top: 0; right: 0; margin: 0; padding: 0; width: 26px; height: 26px; text-align: center; font-size: 16px;
+	color: #FFF; background-color: #d86f64;
+	-moz-box-shadow: inset 0 -2px 0 #b85e55; -webkit-box-shadow: inset 0 -2px 0 #b85e55; box-shadow: inset 0 -2px 0 #b85e55;
+	border-radius: 3px; border: 0; cursor: pointer;
+}
+.lsvr-customizer-control-sidebars__remove-button > i { position: relative; top: 0px; }
+.lsvr-customizer-control-sidebars__remove-button:hover { background-color: #e97b6f; }
+
+/*  Slider control */
+.lsvr-customizer-control-slider__slider-wrapper { padding: 5px 5px 15px 5px; }
+.lsvr-customizer-control-slider__slider-value { display: block; margin: 0 0 5px 0; }
+.lsvr-customizer-control-slider__slider { display: block; position: relative; height: 6px; background-color: #cfcece; border-radius: 2px; }
+.lsvr-customizer-control-slider__slider > .ui-slider-range { display: block; position: absolute; top: 0; left: 0; height: 6px; background-color: #0285bb; border-radius: 2px 0 0 2px; z-index: 10; }
+.lsvr-customizer-control-slider__slider > .ui-slider-handle { display: block; position: absolute; top: -6px;
+	margin-left: -8px; width: 16px; height: 16px; background: #FFF; border: 1px solid #c7c7c7; outline: none; cursor: ew-resize; border-radius: 50%; z-index: 20; }
+
+/* Social links control */
+.lsvr-customizer-control-social-links__list { margin-top: 20px; }
+.lsvr-customizer-control-social-links__item { margin: 15px 0 0 0; cursor: move; }
+.lsvr-customizer-control-social-links__item:first-child { margin: 0; cursor: move; }

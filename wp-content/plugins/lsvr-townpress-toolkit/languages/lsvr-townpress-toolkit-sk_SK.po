@@ -1,0 +1,666 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LSVR TownPress Theme Toolkit\n"
+"POT-Creation-Date: 2018-12-12 14:47+0100\n"
+"PO-Revision-Date: 2018-12-12 14:47+0100\n"
+"Last-Translator: \n"
+"Language-Team: LSVRthemes\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/ajax-weather-widget.php:17
+msgid "You do not have permission to access this data"
+msgstr "Nemáte oprávnenie k prístupu k týmto údajom"
+
+#: ../inc/ajax-weather-widget.php:101
+msgid "No response"
+msgstr "Žiadna odpoveď"
+
+#: ../inc/ajax-weather-widget.php:105
+msgid "Missing data"
+msgstr "Chýbajúce dáta"
+
+#: ../inc/blocks-config.php:11 ../inc/vc-config.php:29 ../inc/vc-config.php:42
+#: ../inc/vc-config.php:55 ../inc/vc-config.php:68 ../inc/vc-config.php:81
+msgid "TownPress"
+msgstr "TownPress"
+
+#: ../inc/blocks-config.php:84 ../inc/vc-config.php:27
+msgid "TownPress Post Slider"
+msgstr "TownPress Slider Článkov"
+
+#: ../inc/blocks-config.php:85 ../inc/vc-config.php:28
+msgid "List of posts in a slider"
+msgstr "Zoznam článkov v slideri"
+
+#: ../inc/blocks-config.php:88 ../inc/blocks-config.php:102
+#: ../inc/blocks-config.php:116 ../inc/blocks-config.php:130
+#: ../inc/blocks-config.php:144
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: ../inc/blocks-config.php:98 ../inc/vc-config.php:40
+msgid "TownPress Posts"
+msgstr "TownPress Články"
+
+#: ../inc/blocks-config.php:99 ../inc/vc-config.php:41
+msgid "List of posts"
+msgstr "Zoznam článkov"
+
+#: ../inc/blocks-config.php:112 ../inc/vc-config.php:53
+msgid "TownPress Sidebar"
+msgstr "TownPress Panel"
+
+#: ../inc/blocks-config.php:113 ../inc/vc-config.php:54
+msgid "Sidebar with widgets"
+msgstr "Panel s widgetmi"
+
+#: ../inc/blocks-config.php:126 ../inc/vc-config.php:66
+msgid "TownPress Sitemap"
+msgstr "TownPress Mapa stránky"
+
+#: ../inc/blocks-config.php:127
+#: ../inc/classes/widgets/lsvr-widget-townpress-menu.php:17
+#: ../inc/vc-config.php:67
+msgid "Custom menu"
+msgstr "Vlastné menu"
+
+#: ../inc/blocks-config.php:140 ../inc/vc-config.php:79
+msgid "TownPress Weather Widget"
+msgstr "TownPress Počasie (widget)"
+
+#: ../inc/blocks-config.php:141
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:17
+#: ../inc/vc-config.php:80
+msgid "Weather forecast"
+msgstr "Predpoveď počasia"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:105
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:139
+#, php-format
+msgid "in %s"
+msgstr "v %s"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:144
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:209
+msgid "There are no posts"
+msgstr "Žiadne články"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:164
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:265
+msgid "Category"
+msgstr "Kategória"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:165
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:266
+msgid "Display posts from a specific category."
+msgstr "Zobraziť články len z danej kategórie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:173
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:274
+msgid "Limit"
+msgstr "Počet"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:174
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:275
+msgid "How many posts to display."
+msgstr "Počet článkov."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:175
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:276
+msgid "All"
+msgstr "Všetko"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:184
+msgid "Height"
+msgstr "Výška"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:185
+msgid "Slider height in pixels."
+msgstr "Výška slideru v pixeloch."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:186
+msgid "Default"
+msgstr "Predvolené"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:195
+msgid "Align"
+msgstr "Zarovnanie"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:196
+msgid "Alignment of slide content."
+msgstr "Zarovnanie obsahu slidera."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:198
+msgid "Left"
+msgstr "Vľavo"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:199
+msgid "Right"
+msgstr "Vpravo"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:209
+msgid "Display Excerpt"
+msgstr "Zobraziť zhrnutie"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:210
+msgid "Display post excerpt."
+msgstr "Zobraziť zhrnutie článku."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:219
+msgid "Autoplay"
+msgstr "Automatické prehrávanie"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:220
+msgid "Time between slide change in seconds. Set to 0 to disable autoplay."
+msgstr ""
+"Rýchlosť automatického prehrávania v sekundách. Nastavte na 0 pre zakázanie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:230
+msgid "Overlay opacity"
+msgstr "Intenzita tmavej vrstvy"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:231
+msgid "Opacity of overlay element. Set to 0 to make it completely transparent."
+msgstr "Nastavte na 0 pre úplnú priehľadnosť tmavej vrstvy."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:241
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:306
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sidebar.php:84
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sitemap.php:139
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:190
+msgid "Unique ID"
+msgstr "Unikátne ID"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-post-slider.php:242
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:307
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sidebar.php:85
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sitemap.php:140
+msgid ""
+"You can use this ID to style this specific element with custom CSS, for "
+"example."
+msgstr ""
+"Toto ID môžete použiť napríklad na naštýlovanie tohto konkrétneho elementu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:160
+msgid "Read More"
+msgstr "Viac"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:244
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sitemap.php:99
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:76
+msgid "Title"
+msgstr "Nadpis"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:245
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sitemap.php:100
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:77
+msgid "Title of this section."
+msgstr "Nadpis tejto sekcie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:246
+msgid "Latest News"
+msgstr "Najnovšie články"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:254
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sitemap.php:109
+msgid "Icon"
+msgstr "Ikona"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:255
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sitemap.php:110
+msgid "Icon name. Please refer to the documentation to learn more about icons."
+msgstr ""
+"Názov ikony. Obráťte sa prosím na dokumentáciu pre viac informácií o ikonách."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:285
+msgid "Featured Limit"
+msgstr "Odporúčané články"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:286
+msgid ""
+"How many posts will be displayed as featured - with excerpt and featured "
+"image."
+msgstr "Koľko článkov sa má zobraziť ako odporúčaných - s náhľadom a obrázkom."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:296
+msgid "More Link Label"
+msgstr "Popisok tlačidla \"viac\""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:297
+msgid "Link to post archive. Leave blank to hide."
+msgstr "Odkaz na archív článkov. Ponechajte prázdne pre skrytie odkazu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-posts.php:298
+msgid "More News"
+msgstr "Viac článkov"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sidebar.php:63
+msgid "Sidebar"
+msgstr "Panel"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sidebar.php:64
+msgid ""
+"Choose which sidebar will be used to create this section. You can manage "
+"custom sidebars under Customizer / Custom Sidebars and populate them with "
+"widgets under Appearance / Widgets."
+msgstr ""
+"Zvoľte ktorý panel sa použije pre túto sekciu. Panely môžete manažovať pod "
+"Vzhľad / Prispôsobiť / Vlastné panely. Widgety do paneloch môžete pridať pod "
+"Vzhľad / Widgety."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sidebar.php:73
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sitemap.php:128
+msgid "Number of Columns"
+msgstr "Počet stĺpcov"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sidebar.php:74
+msgid "How many columns should be used to display the widgets."
+msgstr "Koľko stĺpcov bude použitých pre zobrazenie widgetov."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sitemap.php:79
+msgid "Please choose which menu will be used to create this sitemap."
+msgstr ""
+"Zvoľte ktoré menu sa použije pre vytvorenie mapy stránky. Menu môžete "
+"manažovať pod Vzhľad / Menu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sitemap.php:101
+msgid "Choose Your Interest"
+msgstr "Čo vás zaujíma"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sitemap.php:119
+msgid "Menu"
+msgstr "Menu"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sitemap.php:120
+msgid ""
+"Choose which menu will be used to create the sitemap. You can manage menus "
+"under Appearance / Menus."
+msgstr ""
+"Zvoľte ktoré menu sa použije pre vytvorenie mapy stránky. Menu môžete "
+"manažovať pod Vzhľad / Menu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-sitemap.php:129
+msgid "How many columns should be used to display the sitemap."
+msgstr "Koľko stĺpcov bude použitých na zobrazenie mapy stránky."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:78
+msgid "Weather Forecast"
+msgstr "Predpoveď počasia"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:86
+msgid "Address"
+msgstr "Adresa"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:87
+msgid ""
+"For example: stowe,us. You can search for your location on OpenWeatherMap."
+"org to see if it is in the database. Do not forget to insert your "
+"OpenWeatherMap.org API key under Appearance / Customize / Misc."
+msgstr ""
+"Napríklad: bratislava,sk. Nezabudnite vložiť svoj OpenWeatherMap.org API "
+"kľúč pod Vzhľad / Prispôsobiť / Rôzne."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:95
+msgid "Latitude"
+msgstr "Zemepisná šírka"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:96
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:105
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:36
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:41
+msgid "Use if you are unable to get your local weather using just the address."
+msgstr "Použite v prípade ak máte problém nastaviť počasie z adresy."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:104
+msgid "Longitude"
+msgstr "Zemepisná dĺžka"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:113
+msgid "Forecast Length"
+msgstr "Dĺžka predpovede"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:114
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:46
+msgid "How many days of forecast will be displayed."
+msgstr "Počet dní predpovede."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:116
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:48
+msgid "No forecast"
+msgstr "Žiadna predpoveď"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:117
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:49
+msgid "1 day"
+msgstr "1 deň"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:118
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:50
+msgid "2 days"
+msgstr "2 dni"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:119
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:51
+msgid "3 days"
+msgstr "3 dni"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:129
+msgid "Units Format"
+msgstr "Formát jednotiek"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:131
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:59
+msgid "Metric"
+msgstr "Metrický"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:132
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:60
+msgid "Imperial"
+msgstr "Imperiálny"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:142
+msgid "Update Interval"
+msgstr "Interval aktualizácie"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:143
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:67
+msgid "How often should be weather data pulled from openweathermap.org."
+msgstr "Ako časta sa majú údaje aktualizovať."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:145
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:69
+msgid "Every 10 minutes"
+msgstr "Každých 10 minút"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:146
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:70
+msgid "Every 30 minutes"
+msgstr "Každých 30 minút"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:147
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:71
+msgid "Every hour"
+msgstr "Každú hodinu"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:148
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:72
+msgid "Every 3 hours"
+msgstr "Každé 3 hodiny"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:149
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:73
+msgid "Every 12 hours"
+msgstr "Každých 12 hodín"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:150
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:74
+msgid "Every 24 hours"
+msgstr "Každých 24 hodín"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:151
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:75
+msgid "On each page load (not recommended)"
+msgstr "Pri každom načítaní stránky (neodporúčané)"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:161
+msgid "Display Local Time"
+msgstr "Zobraziť lokálny čas"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:162
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:81
+msgid "You can change your Timezone and Time Format under Settings / General."
+msgstr ""
+"Časové pasmo a formát času si môžete nastaviť pod Nastavenia / Všeobecné."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:171
+msgid "Background Image"
+msgstr "Obrázok pozadia"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:172
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:87
+msgid "Optimal resolution is about 600x600px."
+msgstr "Optimálne rozlíšenie je okolo 600x600 pixelov."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:180
+msgid "Bottom Text"
+msgstr "Spodný text"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:181
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:191
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:92
+msgid ""
+"Custom text which will be displayed at the bottom of the widget content."
+msgstr "Tento text sa zobrazí v spodnej časti widgetu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-townpress-weather-widget.php:182
+msgid "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+msgstr "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-menu.php:16
+msgid "TownPress Menu"
+msgstr "TownPress Menu"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-menu.php:20
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:24
+msgid "Title:"
+msgstr "Nadpis:"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-menu.php:24
+msgid "Menu:"
+msgstr "Menu:"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-menu.php:25
+msgid ""
+"Choose menu to display. You can manage your menus under Appearance / Menus."
+msgstr "Zvoľte ktoré menu sa použije. Menu môžete manažovať pod Vzhľad / Menu."
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-menu.php:30
+msgid "Expand Active Submenu"
+msgstr "Otvoriť aktívnu položku menu"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-menu.php:31
+msgid ""
+"Active item's submenu will be displayed without hovering on desktop devices."
+msgstr "Podmenu aktívnej položky menu bude stále zobrazené."
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-menu.php:36
+msgid "Display On Mobile"
+msgstr "Zobraziť na mobilných zariadeniach"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-menu.php:37
+msgid "Display this menu on mobile devices."
+msgstr "Zobraziť toto menu na mobilných zariadeniach."
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:16
+msgid "TownPress Weather"
+msgstr "TownPress Počasie"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:21
+msgid ""
+"Please insert your OpenWeatherMap.org API Key under Appearance / "
+"Customizer / Misc. Also, don't forget to set your basic locale settings "
+"under Settings / General (especially Timezone)."
+msgstr ""
+"Vložte svoj OpenWeatherMap.org API kľúč pod Vzhľad / Prispôsobiť / Rôzne. "
+"Časové pasmo a formát času si môžete nastaviť pod Nastavenia / Všeobecné."
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:26
+msgid "Weather"
+msgstr "Počasie"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:29
+msgid "Address:"
+msgstr "Adresa:"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:31
+msgid ""
+"For example: \"stowe,us\". You can search for your location on "
+"openweathermap.org to see if it's in the database."
+msgstr "Napríklad: \"bratislava,sk\"."
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:34
+msgid "Latitude:"
+msgstr "Zemepisná šírka:"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:39
+msgid "Longitude:"
+msgstr "Zemepisná dĺžka:"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:44
+msgid "Forecast Length:"
+msgstr "Dĺžka predpovede:"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:56
+msgid "Units Format:"
+msgstr "Formát jednotiek:"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:65
+msgid "Update Interval:"
+msgstr "Interval aktualizácie:"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:80
+msgid "Show Local Time"
+msgstr "Zobraziť miestny čas"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:86
+msgid "Background Image:"
+msgstr "Obrázok pozadia:"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:91
+msgid "Bottom Text:"
+msgstr "Spodný text:"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:152
+msgid "Local Time"
+msgstr "Lokálny čas"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:175
+msgid "Today"
+msgstr "Dnes"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:184
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:208
+msgid "Temperature"
+msgstr "Teplota"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:185
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:209
+msgid "&deg;C"
+msgstr "&deg;C"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:185
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:209
+msgid "&deg;F"
+msgstr "&deg;F"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:188
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:212
+msgid "Wind speed"
+msgstr "Rýchlosť vetra"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:189
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:213
+msgid "m/s"
+msgstr "m/s"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:189
+msgid "m/h"
+msgstr "m/h"
+
+#: ../inc/classes/widgets/lsvr-widget-townpress-weather.php:226
+msgid "Weather forecast can be displayed on front-end only."
+msgstr "Predpoveď počasia sa zobrazí len priamo na stránke."
+
+#: ../inc/core-functions.php:98
+#, php-format
+msgid "Custom Sidebar %d"
+msgstr "Vlastný panel %d"
+
+#: ../inc/core-functions.php:117
+msgid "Default Left Sidebar"
+msgstr "Predvolený ľavý panel"
+
+#: ../inc/core-functions.php:118
+msgid "Default Right Sidebar"
+msgstr "Predvolený pravý panel"
+
+#~ msgid "Display posts only from certain category"
+#~ msgstr "Zobraziť články len z tejto kategórie"
+
+#~ msgid "Number of posts to display."
+#~ msgstr "Počet článkov na zobrazenie."
+
+#~ msgid "Display Date"
+#~ msgstr "Zobraziť dátum"
+
+#~ msgid "Display Category"
+#~ msgstr "Zobraziť kategóriu"
+
+#~ msgid "TownPress Featured Post"
+#~ msgstr "TownPress Odporúčaný Článok"
+
+#~ msgid "Single Post"
+#~ msgstr "Samostatný článok"
+
+#~ msgid ""
+#~ "This widget is DEPRECATED and will be removed in the future updates. "
+#~ "Please use the LSVR Featured Post widget instead."
+#~ msgstr ""
+#~ "Tento widget je zastaralý a v budúcnosti bude úplne odstránený. Použite "
+#~ "namiesto neho widget LSVR Vybraný článok."
+
+#~ msgid "Featured Post"
+#~ msgstr "Odporúčaný článok"
+
+#~ msgid "Post:"
+#~ msgstr "Článok:"
+
+#~ msgid "Choose post to display."
+#~ msgstr "Zvoľte článok."
+
+#~ msgid "More Button Label:"
+#~ msgstr "Popisok tlačidla \"viac\":"
+
+#~ msgid "List of Posts"
+#~ msgstr "Zoznam článkov"
+
+#~ msgid ""
+#~ "This widget is DEPRECATED and will be removed in the future updates. "
+#~ "Please use the LSVR Posts widget instead."
+#~ msgstr ""
+#~ "Tento widget je zastaralý a v budúcnosti bude úplne odstránený. Použite "
+#~ "namiesto neho widget LSVR Články."
+
+#~ msgid "News"
+#~ msgstr "Novinky"
+
+#~ msgid "Category:"
+#~ msgstr "Kategória:"
+
+#~ msgid "Display posts only from certain category."
+#~ msgstr "Zobraziť články len z danej kategórie."
+
+#~ msgid "None"
+#~ msgstr "---"
+
+#~ msgid "Limit:"
+#~ msgstr "Počet:"
+
+#~ msgid "TownPress Post List Widget"
+#~ msgstr "TownPress Články (widget)"
+
+#~ msgid "LSVR TownPress Posts"
+#~ msgstr "LSVR TownPress Články"
+
+#~ msgid "Link to post archive. Leave blank to hide"
+#~ msgstr "Odkaz na archív článkov. Ponechajte prázdne pre skrytie odkazu."

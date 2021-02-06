@@ -1,0 +1,106 @@
+/* -----------------------------------------------------------------------------
+
+	1. COMPONENTS
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		ALERT MESSAGE
+	------------------------------------------------------------------------- */
+
+	.c-alert-message { padding-left: 20px; padding-right: 50px; }
+	.c-alert-message:before { left: auto; right: 20px; }
+
+	/* -------------------------------------------------------------------------
+		BUTTON
+	------------------------------------------------------------------------- */
+
+	.c-button--has-icon { padding-left: 20px; padding-right: 42px; }
+	.c-button__icon { left: auto; right: 20px; }
+
+
+/* -----------------------------------------------------------------------------
+
+	2. ELEMENTS
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		POSTS
+	------------------------------------------------------------------------- */
+
+	.lsvr-townpress-posts__icon { left: auto; right: 0; }
+	.lsvr-townpress-posts__title--has-icon { padding-left: 0; padding-right: 45px; }
+	.lsvr-townpress-posts__title-icon { left: auto; right: 0; }
+
+		/* Featured */
+		.lsvr-townpress-posts__item--featured .lsvr-townpress-posts__post-meta { padding-left: 0; padding-right: 20px; }
+		.lsvr-townpress-posts__item--featured .lsvr-townpress-posts__post-meta:before { left: auto; right: 0; }
+
+		/* Short */
+		.lsvr-townpress-posts__item--short .lsvr-townpress-posts__post { padding-right: 0; padding-left: 100px; }
+		.lsvr-townpress-posts__item--short .lsvr-townpress-posts__post-meta { right: auto; left: 0; }
+
+	/* -------------------------------------------------------------------------
+		POST SLIDER
+	------------------------------------------------------------------------- */
+
+	.lsvr-townpress-post-slider__post-header { text-align: right; }
+	.lsvr-townpress-post-slider__post-content { text-align: right; }
+	.lsvr-townpress-post-slider__post-overlay-link { left: auto; right: 0; }
+	.lsvr-townpress-post-slider .owl-nav { right: auto; left: 0; }
+	.lsvr-townpress-post-slider .owl-prev,
+	.lsvr-townpress-post-slider .owl-next { float: right; }
+	.lsvr-townpress-post-slider .owl-prev i,
+	.lsvr-townpress-post-slider .owl-next i { left: auto; right: 0; }
+	.lsvr-townpress-post-slider .owl-prev:active i { left: auto; right: -2px; }
+	.lsvr-townpress-post-slider .owl-next:active i { left: auto; right: 2px; }
+	.lsvr-townpress-post-slider__indicator-icon--right:before { content: '\f104'; }
+	.lsvr-townpress-post-slider__indicator-icon--left:before { content: '\f105'; }
+
+	/* -------------------------------------------------------------------------
+		SIDEBAR
+	------------------------------------------------------------------------- */
+
+	.lsvr-townpress-sidebar__list > .widget { float: right; }
+	.lsvr-townpress-sidebar__list--1-cols > .widget { float: none; }
+	.lsvr-townpress-sidebar__list--2-cols > .widget:nth-child( 2n+1 ),
+	.lsvr-townpress-sidebar__list--3-cols > .widget:nth-child( 3n+1 ),
+	.lsvr-townpress-sidebar__list--4-cols > .widget:nth-child( 4n+1 ) { clear: right; }
+
+	/* -------------------------------------------------------------------------
+		SITEMAP
+	------------------------------------------------------------------------- */
+
+	.lsvr-townpress-sitemap__icon { left: auto; right: 0; }
+	.lsvr-townpress-sitemap__title--has-icon { padding-left: 0; padding-right: 45px; }
+	.lsvr-townpress-sitemap__title-icon { left: auto; right: 0; }
+
+		/* Level 1 */
+		.lsvr-townpress-sitemap__item--level-0 { float: right; }
+		.lsvr-townpress-sitemap__nav--1-cols .lsvr-townpress-sitemap__item--level-0 { float: none; }
+		.lsvr-townpress-sitemap__nav--2-cols .lsvr-townpress-sitemap__item--level-0:nth-child( 2n+1 ),
+		.lsvr-townpress-sitemap__nav--3-cols .lsvr-townpress-sitemap__item--level-0:nth-child( 3n+1 ),
+		.lsvr-townpress-sitemap__nav--4-cols .lsvr-townpress-sitemap__item--level-0:nth-child( 4n+1 ) { clear: right; }
+
+		/* Level 2+ */
+		.lsvr-townpress-sitemap__item--level-1 .lsvr-townpress-sitemap__submenu { margin-left: 0; margin-right: 20px; }
+
+	/* -------------------------------------------------------------------------
+		LSVR ELEMENTS
+	------------------------------------------------------------------------- */
+
+	/* Alert message */
+	.lsvr-alert-message { padding-left: 20px; padding-right: 50px; }
+    .lsvr-alert-message:before { left: auto; right: 20px; }
+
+    /* CTA */
+    .lsvr-cta--has-button .lsvr-cta__inner { padding-right: 0; padding-left: 200px; }
+    .lsvr-cta__button { right: auto; left: 0; }
+
+    /* Feature */
+    .lsvr-feature--has-icon .lsvr-feature__inner { padding-left: 0; padding-right: 60px; }
+    .lsvr-feature__icon { left: auto; right: 0; }
+
+    /* Progress bar */
+    .lsvr-progress-bar__bar-label { right: auto; left: 10px; }

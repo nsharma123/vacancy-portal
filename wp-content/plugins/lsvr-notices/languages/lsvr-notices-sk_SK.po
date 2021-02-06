@@ -1,0 +1,319 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LSVR Notices\n"
+"POT-Creation-Date: 2018-12-09 13:36+0100\n"
+"PO-Revision-Date: 2018-12-09 13:36+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/blocks-config.php:37 ../inc/vc-config.php:27
+msgid "LSVR Notices Widget"
+msgstr "LSVR Oznámenia (widget)"
+
+#: ../inc/blocks-config.php:38 ../inc/vc-config.php:28
+msgid "List of notice posts"
+msgstr "Zoznam oznámení"
+
+#: ../inc/blocks-config.php:41
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: ../inc/classes/lsvr-cpt-notice.php:14
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:70
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:22
+msgid "Notices"
+msgstr "Oznámenia"
+
+#: ../inc/classes/lsvr-cpt-notice.php:15
+msgid "Notice"
+msgstr "Oznámenie"
+
+#: ../inc/classes/lsvr-cpt-notice.php:16 ../inc/classes/lsvr-cpt-notice.php:17
+#: ../inc/classes/lsvr-cpt-notice.php:19
+msgid "Add New Notice"
+msgstr "Pridať oznámenie"
+
+#: ../inc/classes/lsvr-cpt-notice.php:18
+msgid "Edit Notice"
+msgstr "Upraviť oznámenie"
+
+#: ../inc/classes/lsvr-cpt-notice.php:20
+msgid "View Notice"
+msgstr "Zobraziť oznámenie"
+
+#: ../inc/classes/lsvr-cpt-notice.php:21
+msgid "Search notices"
+msgstr "Hľadať oznámenia"
+
+#: ../inc/classes/lsvr-cpt-notice.php:22
+msgid "No notices found"
+msgstr "Neboli nájdené žiadne oznámenia"
+
+#: ../inc/classes/lsvr-cpt-notice.php:23
+msgid "No notices found in trash"
+msgstr "V koši neboli nájdené žiadne oznámenia"
+
+#: ../inc/classes/lsvr-cpt-notice.php:42 ../inc/classes/lsvr-cpt-notice.php:56
+#: ../inc/classes/widgets/lsvr-widget-notice-categories.php:22
+msgid "Notice Categories"
+msgstr "Kategórie oznámení"
+
+#: ../inc/classes/lsvr-cpt-notice.php:43
+msgid "Notice Category"
+msgstr "Kategória oznámenia"
+
+#: ../inc/classes/lsvr-cpt-notice.php:44
+msgid "Search Notice Categories"
+msgstr "Hľadať v kategóriách"
+
+#: ../inc/classes/lsvr-cpt-notice.php:45
+msgid "Popular Notice Categories"
+msgstr "Populárne kategórie"
+
+#: ../inc/classes/lsvr-cpt-notice.php:46
+msgid "All Notice Categories"
+msgstr "Všetky kategórie"
+
+#: ../inc/classes/lsvr-cpt-notice.php:47
+msgid "Parent Notice Category"
+msgstr "Nadradená kategória"
+
+#: ../inc/classes/lsvr-cpt-notice.php:48
+msgid "Parent Notice Category:"
+msgstr "Nadradená kategória:"
+
+#: ../inc/classes/lsvr-cpt-notice.php:49
+msgid "Edit Notice Category"
+msgstr "Upraviť kategóriu"
+
+#: ../inc/classes/lsvr-cpt-notice.php:50
+msgid "Update Notice Category"
+msgstr "Aktualizovať kategóriu"
+
+#: ../inc/classes/lsvr-cpt-notice.php:51
+msgid "Add New Notice Category"
+msgstr "Pridať novú kategóriu"
+
+#: ../inc/classes/lsvr-cpt-notice.php:52
+msgid "New Notice Category Name"
+msgstr "Názov novej kategórie"
+
+#: ../inc/classes/lsvr-cpt-notice.php:53
+msgid "Separate notice categories by comma"
+msgstr "Oddeľte kategórie čiarkou"
+
+#: ../inc/classes/lsvr-cpt-notice.php:54
+msgid "Add or remove notice categories"
+msgstr "Pridať alebo odstrániť kategórie"
+
+#: ../inc/classes/lsvr-cpt-notice.php:55
+msgid "Choose from the most used notice categories"
+msgstr "Vyberte si z najviac používaných kategórií"
+
+#: ../inc/classes/lsvr-cpt-notice.php:77 ../inc/classes/lsvr-cpt-notice.php:91
+msgid "Notice Tags"
+msgstr "Značky oznámení"
+
+#: ../inc/classes/lsvr-cpt-notice.php:78
+msgid "Notice Tag"
+msgstr "Značka oznámenia"
+
+#: ../inc/classes/lsvr-cpt-notice.php:79
+msgid "Search Notice Tags"
+msgstr "Hľadať v značkách"
+
+#: ../inc/classes/lsvr-cpt-notice.php:80
+msgid "Popular Notice Tags"
+msgstr "Populárne značky"
+
+#: ../inc/classes/lsvr-cpt-notice.php:81
+msgid "All Notice Tags"
+msgstr "Všetky značky"
+
+#: ../inc/classes/lsvr-cpt-notice.php:82
+msgid "Parent Notice Tag"
+msgstr "Nadradená značka"
+
+#: ../inc/classes/lsvr-cpt-notice.php:83
+msgid "Parent Notice Tag:"
+msgstr "Nadradená značka:"
+
+#: ../inc/classes/lsvr-cpt-notice.php:84
+msgid "Edit Notice Tag"
+msgstr "Upraviť značku"
+
+#: ../inc/classes/lsvr-cpt-notice.php:85
+msgid "Update Notice Tag"
+msgstr "Aktualizovať značku"
+
+#: ../inc/classes/lsvr-cpt-notice.php:86
+msgid "Add New Notice Tag"
+msgstr "Pridať novú značku"
+
+#: ../inc/classes/lsvr-cpt-notice.php:87
+msgid "New Notice Tag Name"
+msgstr "Názov novej značky"
+
+#: ../inc/classes/lsvr-cpt-notice.php:88
+msgid "Separate notice tags by comma"
+msgstr "Oddeľte značky čiarkou"
+
+#: ../inc/classes/lsvr-cpt-notice.php:89
+msgid "Add or remove notice tags"
+msgstr "Pridať alebo odstrániť značky"
+
+#: ../inc/classes/lsvr-cpt-notice.php:90
+msgid "Choose from the most used notice tags"
+msgstr "Vyberte si z najviac používaných značiek"
+
+#: ../inc/classes/lsvr-permalink-settings-notices.php:12
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:16
+msgid "LSVR Notices"
+msgstr "LSVR Oznámenia"
+
+#: ../inc/classes/lsvr-permalink-settings-notices.php:17
+msgid "Archive Slug"
+msgstr "Slug archívu"
+
+#: ../inc/classes/lsvr-permalink-settings-notices.php:22
+msgid "Category Slug"
+msgstr "Slug kategórie"
+
+#: ../inc/classes/lsvr-permalink-settings-notices.php:27
+msgid "Tag Slug"
+msgstr "Slug značky"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:68
+msgid "Title"
+msgstr "Nadpis"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:69
+msgid "Title of this section."
+msgstr "Nadpis tejto sekcie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:79
+msgid "Category"
+msgstr "Kategória"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:80
+msgid "Display notices from a specific category."
+msgstr "Zobraziť iba oznámenia z konkrétnej kategórie."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:88
+msgid "Limit"
+msgstr "Počet"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:89
+msgid "How many notices to display."
+msgstr "Počet oznámení."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:90
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:35
+msgid "All"
+msgstr "Všetko"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:99
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:39
+msgid "Display Date"
+msgstr "Zobraziť dátum"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:108
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:44
+msgid "Display Category"
+msgstr "Zobraziť kategóriu"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:117
+msgid "More Link Label"
+msgstr "Popisok tlačidla \"viac\""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:118
+msgid "Link to notices archive. Leave blank to hide."
+msgstr "Odkaz na archív oznámení. Ponechajte prázdne pre skrytie odkazu."
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:119
+msgid "More notices"
+msgstr "Viac oznámení"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:127
+msgid "Unique ID"
+msgstr "Unikátne ID"
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-notice-list-widget.php:128
+msgid ""
+"You can use this ID to style this specific element with custom CSS, for "
+"example."
+msgstr ""
+"Toto ID môžete použiť napríklad na naštýlovanie tohto konkrétneho elementu."
+
+#: ../inc/classes/widgets/lsvr-widget-notice-categories.php:16
+msgid "LSVR Notice Categories"
+msgstr "LSVR Kategórie Oznámení"
+
+#: ../inc/classes/widgets/lsvr-widget-notice-categories.php:17
+msgid "List of Notice Post categories"
+msgstr "Zoznam kategórií"
+
+#: ../inc/classes/widgets/lsvr-widget-notice-categories.php:20
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:20
+msgid "Title:"
+msgstr "Nadpis:"
+
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:17
+msgid "List of Notice posts"
+msgstr "Zoznam oznámení"
+
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:25
+msgid "Category:"
+msgstr "Kategória:"
+
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:26
+msgid "Display notices only from a certain category."
+msgstr "Zobraziť iba oznámenia z konkrétnej kategórie."
+
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:29
+msgid "None"
+msgstr "----"
+
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:32
+msgid "Limit:"
+msgstr "Počet:"
+
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:33
+msgid "Number of notices to display."
+msgstr "Počet galérií."
+
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:49
+msgid "More Button Label:"
+msgstr "Popisok tlačidla \"viac\":"
+
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:50
+msgid "Link to notice post archive. Leave blank to hide."
+msgstr "Odkaz na archív oznámení. Ponechajte prázdne pre skrytie odkazu."
+
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:52
+msgid "More Notices"
+msgstr "Viac oznámení"
+
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:132
+#, php-format
+msgid "in %s"
+msgstr "v %s"
+
+#: ../inc/classes/widgets/lsvr-widget-notice-list.php:156
+msgid "There are no notices"
+msgstr "Žiadne oznámenia"
+
+#: ../inc/vc-config.php:29
+msgid "LSVR Widgets"
+msgstr "LSVR Widgety"

@@ -1,0 +1,5 @@
+/*  RTL admin view */
+.lsvr-events-admin-view__datepicker .ui-datepicker-prev { left: auto; right: 20px; }
+.lsvr-events-admin-view__datepicker .ui-datepicker-next { right: auto; left: 20px; }
+.lsvr-events-admin-view__datepicker .ui-datepicker-prev:before { content: '\f345'; }
+.lsvr-events-admin-view__datepicker .ui-datepicker-next:before { content: '\f341'; }
